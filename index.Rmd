@@ -1,7 +1,7 @@
 --- 
 title: "WILDCROSSDATA: a dataset on the use of crossing structures in Latin America"
 author: "Bibiana Terra Dasoler, Ingridi Camboim Franceschi, Diego Varela, Fernanda Zimmermann Teixeira, Igor Pfeifer Coelho, Larissa Donida Biasotto, Larissa Oliveira Gonçalves, Rubem Dornas, Andreas Kindel"
-date: "`r Sys.Date()`"
+date: "`r format(Sys.time(), '%d/%b/%Y')`"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
