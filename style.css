@@ -12,3 +12,11 @@ pre {
 pre code {
   white-space: inherit;
 }
+
+body {
+  text-align: justify;
+}
+
+img {
+	border: 1.328147px solid black;
+}

@@ -1,6 +1,6 @@
 --- 
-title: "A Minimal Book Example"
-author: "John Doe"
+title: "WILDCROSSDATA: a dataset on the use of crossing structures in Latin America"
+author: "Bibiana Terra Dasoler, Ingridi Camboim Franceschi, Diego Varela, Fernanda Zimmermann Teixeira, Igor Pfeifer Coelho, Larissa Donida Biasotto, Larissa Oliveira Gonçalves, Rubem Dornas, Andreas Kindel"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
@@ -8,49 +8,99 @@ bibliography: [book.bib, packages.bib]
 # url: your book url like https://bookdown.org/yihui/bookdown
 # cover-image: path to the social sharing image like images/cover.jpg
 description: |
-  This is a minimal example of using the bookdown package to write a book.
-  The HTML output format for this example is bookdown::gitbook,
-  set in the _output.yml file.
+  Tutorial para preenchimento das planilhas do datapaper WILDCROSSDATA.
 link-citations: yes
 github-repo: rstudio/bookdown-demo
 ---
 
-# About
+# Sobre
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports; for example, a math equation $a^2 + b^2 = c^2$.
+Este tutorial tem como função auxiliar o preenchimento das planilhas. Cada seção na planilha está representada separadamente no tutorial com exemplos e detalhes de algumas informações solicitadas que podem gerar dúvidas durante o preenchimento. 
+Buscamos abranger diferentes exemplos, porém, reconhecemos que podem existir outros tipos de estruturas inseridas em diferentes contextos, as quais diferem dos exemplos abordados aqui. Caso haja dúvidas, entre em contato conosco pelo e-mail passagens.fauna@gmail.com.
 
-## Usage 
 
-Each **bookdown** chapter is an .Rmd file, and each .Rmd file can contain one (and only one) chapter. A chapter *must* start with a first-level heading: `# A good chapter`, and can contain one (and only one) first-level heading.
+# Planilha UNDERPASSES
 
-Use second-level and higher headings within chapters like: `## A short section` or `### An even shorter section`.
+## Coluna `structure_type`
+Exemplos dos tipos de estruturas de travessia (caracterização com base na função primária de implementação).
 
-The `index.Rmd` file is required, and is also your first book chapter. It will be the homepage when you render the book.
+### Bueiro de concreto
+Função primária de conectividade hídrica (Figura \@ref(fig:bueiroconcreto)).
 
-## Render book
-
-You can render the HTML version of this example book without changing anything:
-
-1. Find the **Build** pane in the RStudio IDE, and
-
-1. Click on **Build Book**, then select your output format, or select "All formats" if you'd like to use multiple formats from the same book source files.
-
-Or build the book from the R console:
-
-```{r, eval=FALSE}
-bookdown::render_book()
+```{r bueiroconcreto, echo=FALSE, fig.cap='Bueiro de concreto. Fonte: ©Diego Varela.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/bueiro_concreto.jpg")
 ```
 
-To render this example to PDF as a `bookdown::pdf_book`, you'll need to install XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.org/tinytex/>.
+### Bueiro corrugado
+Paredes metálicas com ondulações (Figura \@ref(fig:bueirocorrugado)).
 
-## Preview book
-
-As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in "Preview book", or from the R console:
-
-```{r eval=FALSE}
-bookdown::serve_book()
+```{r bueirocorrugado, echo=FALSE, fig.cap='Bueiro corrugado. Fonte: ©EGR – Empresa Gaúcha de Rodovias.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/bueiro_corrugado.jpg")
 ```
 
+### Bueiro de metal
+```{r bueirodemetal, echo=FALSE, fig.cap='Bueiro de metal.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/sem_foto.png")
+```
+
+### Bueiro com plataforma seca (bueiro com passadiço)
+```{r bueiroplataformaseca, echo=FALSE, fig.cap='Bueiro com plataforma seca (bueiro com passadiço).', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/sem_foto.png")
+```
+
+### Passagem de gado
+Não possui drenagem de água e sua função primária é a de passagem de gado (Figura \@ref(fig:passagemdegado)).
+```{r passagemdegado, echo=FALSE, fig.cap='Passagem de gado. Fonte: ©Diego Varela.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/passagem_de_gado.jpg")
+```
+
+### Passagem de fauna
+Não possui drenagem de água e sua função primária é a de passagem de fauna (Figura \@ref(fig:passagemdefauna)).
+```{r passagemdefauna, echo=FALSE, fig.cap='Passagem de fauna. Fonte: ©Diego Varela.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/passagem_de_fauna.jpg")
+```
+
+### Ponte
+Estrutura suspensa por colunas e habitualmente com presença de água (exceto períodos de seca) e comprimento acima de 10 m (Figura \@ref(fig:ponte)).
+```{r ponte, echo=FALSE, fig.cap='Ponte. Fonte: ©EGR – Empresa Gaúcha de Rodovias.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/ponte.JPG")
+```
+
+### Pontilhão
+Estrutura suspensa, sem colunas, habitualmente com presença de água (exceto períodos de seca) com comprimento entre 3 e 10 m.
+```{r pontilhao, echo=FALSE, fig.cap='Pontilhão.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/sem_foto.png")
+```
+
+### Viaduto
+Estrutura suspensa por colunas e sem presença de água (Figura \@ref(fig:viaduto)).
+```{r viaduto, echo=FALSE, fig.cap='Viaduto. Fonte: ©Diego Varela.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/viaduto.jpg")
+```
+
+## Coluna `structure_cells`
+Determinadas estruturas, principalmente as drenagens de água, podem ser formadas por múltiplas estruturas paralelas de mesma função. Essa coluna tem por objetivo receber o número de estruturas paralelas (por analogia, nos exemplos, é contabilizado o número de aberturas de um dos lados da estrutura). Os exemplos abaixo não esgotam as possibilidades (p. ex. quádrupla (4), quíntupla (5) etc.).
+
+### Simples (1)
+Estrutura com abertura única (Figura \@ref(fig:cellssimples)).
+```{r cellssimples, echo=FALSE, fig.cap='Passagem simples (abertura única). Fonte: ©EGR – Empresa Gaúcha de Rodovias.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/cells_simples.jpg")
+```
+
+### Dupla (2)
+Estrutura com duas aberturas (Figura \@ref(fig:cellsdupla)).
+```{r cellsdupla, echo=FALSE, fig.cap='Passagem dupla (duas aberturas). Fonte: ©EGR – Empresa Gaúcha de Rodovias.', fig.align='center', out.width='45%'}
+knitr::include_graphics(c("Imagens/cells_dupla.jpg"))
+```
+
+### Tripla (3)
+Estrutura com três aberturas (Figura \@ref(fig:cellstripla)).
+```{r cellstripla, echo=FALSE, fig.cap='Passagem tripla (três aberturas). Fonte: ©EGR – Empresa Gaúcha de Rodovias.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/cells_tripla.jpg"))
+```
+
+
+***
 
 ```{r include=FALSE}
 # automatically create a bib database for R packages
