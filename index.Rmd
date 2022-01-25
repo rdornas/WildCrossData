@@ -78,7 +78,7 @@ Estrutura suspensa por colunas e sem presença de água (Figura \@ref(fig:viadut
 knitr::include_graphics("Imagens/viaduto.jpg")
 ```
 
-## Coluna `structure_cells`
+## Coluna `structure_cell`
 Determinadas estruturas, principalmente as drenagens de água, podem ser formadas por múltiplas estruturas paralelas de mesma função. Essa coluna tem por objetivo receber o número de estruturas paralelas (por analogia, nos exemplos, é contabilizado o número de aberturas de um dos lados da estrutura). Os exemplos abaixo não esgotam as possibilidades (p. ex. quádrupla (4), quíntupla (5) etc.).
 
 ### Simples (1)
@@ -99,7 +99,55 @@ Estrutura com três aberturas (Figura \@ref(fig:cellstripla)).
 knitr::include_graphics(c("Imagens/cells_tripla.jpg"))
 ```
 
+## Coluna `structure_shape`
+Determinadas estruturas, principalmente as drenagens de água, costumam ter formatos de embocadura predeterminados, como circular (ou tubular / elíptico), celular (quadrado ou retangular) e em arco.
 
+### Celular
+Estrutura com perfil de embocadura com ângulos retos (quadrado ou retangular)
+ (Figura \@ref(fig:celular)).
+```{r celular, echo=FALSE, fig.cap='Estrutura celular. Fonte: ©EGR – Empresa Gaúcha de Rodovias.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/celular.jpg"))
+```
+
+### Tubular
+Perfil de embocadura circular ou elíptico
+ (Figura \@ref(fig:tubular)).
+```{r tubular, echo=FALSE, fig.cap='Estrutura tubular. Fonte: ©EGR – Empresa Gaúcha de Rodovias.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/tubular.jpg"))
+```
+
+### Arco
+Perfil de embocadura circular ou elíptico
+ (Figura \@ref(fig:arco)).
+```{r arco, echo=FALSE, fig.cap='Estrutura em arco.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/sem_foto.png"))
+```
+
+## Coluna `structure_photo`
+Para que possamos compreender todos os diferentes contextos de passagens de fauna e, eventualmente, realizar confirmações sobre os dados disponibilizados, imagens representativas de cada estrutura de travessia devem ser enviadas no mesmo e-mail da planilha de dados, preferencialmente anexadas ou com link para baixar. A proposta dessa foto **não** é o envio de uma imagem capturada pela armadilha fotográfica, mas uma foto tirada externamente exibindo o número de aberturas (células) e formato da estrutura. Exemplos nesse sentido podem ser encontrados na Figura \@ref(fig:structurephotounder).
+
+```{r structurephotounder, echo=FALSE, fig.cap='Exemplos de fotos a serem enviadas como demonstração da estrutura de travessia.', fig.align='center', out.width='100%'}
+knitr::include_graphics(c("Imagens/structure_photo_under.png"))
+```
+
+## Colunas `structure_height`, `structure_width`, `structure_length` e `waterbody_width` {.tabset}
+
+### Estruturas convencionais
+Valores de mensuração da estrutura devem ser fornecidos, como altura (`structure_height` = **a**), largura (`structure_width` = **b**) e comprimento (`structure_length` = **c**) da estrutura (Figura \@ref(fig:structuremedidas)).
+
+Cabe notar que o comprimento pode **não ser** igual à largura da pista, uma vez que existem estruturas esconsas (enviesadas) em relação ao eixo da via.
+```{r structuremedidas, echo=FALSE, fig.cap='Esquemas para estrutura convencionais exibindo as formas de coleta de parâmetros de altura (**a**), largura (**b**) e comprimento (**c**) da estrutura.', fig.align='center', out.width='100%'}
+knitr::include_graphics(c("Imagens/structure_medidas.jpg"))
+```
+
+### Pontes e pontilhões
+O sistema de mensuração é diferenciado no caso de pontes e pontilhões.
+
+Valores de mensuração da estrutura devem ser fornecidos, como altura (`structure_height` = **a**), largura (soma) das margens secas (`structure_width` = **b**), extensão (`structure_length` = **c**) e largura do corpo d'água sob a ponte (`waterbody_width` = **c**) da estrutura (Figura \@ref(fig:structuremedidasagua)).
+
+```{r structuremedidasagua, echo=FALSE, fig.cap="Esquemas para pontes e pontilhões exibindo as formas de coleta de parâmetros de altura (**a**), largura (soma) das margens secas (**b**), comprimento (**c**) e largura do corpo d'água sob a ponte (**d**) de pontes e pontilhões.", fig.align='center', out.width='100%'}
+knitr::include_graphics(c("Imagens/structure_medidas_agua.jpg"))
+```
 ***
 
 ```{r include=FALSE}

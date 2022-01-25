@@ -19,6 +19,6 @@ bookdown::html_document2:
     css: style.css
     toc: true
     toc_float:
-      collapsed: true
+      collapsed: false
       smooth_scroll: true
     number_sections: true
