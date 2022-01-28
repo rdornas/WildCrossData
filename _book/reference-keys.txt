@@ -44,3 +44,7 @@ colunas-structure_height-structure_width-structure_length-e-waterbody_width
 estruturas-convencionais
 pontes-e-pontilhões
 fig:structuremedidasagua
+idioma-idiom
+português
+english
+español

@@ -1,14 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 p.caption {
-  color: #777;
+  color: #555;
   margin-top: 10px;
 }
+
 p code {
   white-space: inherit;
 }
+
+p {
+  font-size: 16px;
+}
+
 pre {
   word-break: normal;
   word-wrap: normal;
 }
+
 pre code {
   white-space: inherit;
 }
@@ -19,4 +28,56 @@ body {
 
 img {
 	border: 1.328147px solid black;
+	margin-top: 10px;
+}
+
+body {
+  background: aliceblue;
+}
+
+h1.title {
+  font-size: 38px;
+  background: cornflowerblue;
+  border-radius: 20px;
+  padding: 25px 50px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #001A23;
+  font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 26px;
+}
+
+h4.date {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+h4.author {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h5 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between
+}
+
+.nav>li>a {
+  font-size: 20px;
+  font-weight: 400;
+  border: 1px solid #001A23
 }

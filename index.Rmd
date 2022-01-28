@@ -2,7 +2,6 @@
 title: "WILDCROSSDATA: a dataset on the use of crossing structures in Latin America"
 author: "Bibiana Terra Dasoler, Ingridi Camboim Franceschi, Diego Varela, Fernanda Zimmermann Teixeira, Igor Pfeifer Coelho, Larissa Donida Biasotto, Larissa Oliveira Gonçalves, Rubem Dornas, Andreas Kindel"
 date: "`r format(Sys.time(), '%d/%b/%Y')`"
-site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
 # url: your book url like https://bookdown.org/yihui/bookdown
@@ -10,129 +9,131 @@ bibliography: [book.bib, packages.bib]
 description: |
   Tutorial para preenchimento das planilhas do datapaper WILDCROSSDATA.
 link-citations: yes
-github-repo: rstudio/bookdown-demo
 ---
 
-# Sobre
+# Idioma / Idiom {.tabset .tabset-fade .tabset-pills}
+
+## Português
+
+### Sobre
 
 Este tutorial tem como função auxiliar o preenchimento das planilhas. Cada seção na planilha está representada separadamente no tutorial com exemplos e detalhes de algumas informações solicitadas que podem gerar dúvidas durante o preenchimento. 
 Buscamos abranger diferentes exemplos, porém, reconhecemos que podem existir outros tipos de estruturas inseridas em diferentes contextos, as quais diferem dos exemplos abordados aqui. Caso haja dúvidas, entre em contato conosco pelo e-mail passagens.fauna@gmail.com.
 
+### Planilha UNDERPASSES
 
-# Planilha UNDERPASSES
-
-## Coluna `structure_type`
+#### Coluna `structure_type`
 Exemplos dos tipos de estruturas de travessia (caracterização com base na função primária de implementação).
 
-### Bueiro de concreto
+##### • Bueiro de concreto
 Função primária de conectividade hídrica (Figura \@ref(fig:bueiroconcreto)).
 
 ```{r bueiroconcreto, echo=FALSE, fig.cap='Bueiro de concreto. Fonte: ©Diego Varela.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/bueiro_concreto.jpg")
 ```
 
-### Bueiro corrugado
+##### • Bueiro corrugado
 Paredes metálicas com ondulações (Figura \@ref(fig:bueirocorrugado)).
 
 ```{r bueirocorrugado, echo=FALSE, fig.cap='Bueiro corrugado. Fonte: ©EGR – Empresa Gaúcha de Rodovias.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/bueiro_corrugado.jpg")
 ```
 
-### Bueiro de metal
+##### • Bueiro de metal
 ```{r bueirodemetal, echo=FALSE, fig.cap='Bueiro de metal.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/sem_foto.png")
 ```
 
-### Bueiro com plataforma seca (bueiro com passadiço)
+##### • Bueiro com plataforma seca (bueiro com passadiço)
 ```{r bueiroplataformaseca, echo=FALSE, fig.cap='Bueiro com plataforma seca (bueiro com passadiço).', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/sem_foto.png")
 ```
 
-### Passagem de gado
+##### • Passagem de gado
 Não possui drenagem de água e sua função primária é a de passagem de gado (Figura \@ref(fig:passagemdegado)).
 ```{r passagemdegado, echo=FALSE, fig.cap='Passagem de gado. Fonte: ©Diego Varela.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/passagem_de_gado.jpg")
 ```
 
-### Passagem de fauna
+##### • Passagem de fauna
 Não possui drenagem de água e sua função primária é a de passagem de fauna (Figura \@ref(fig:passagemdefauna)).
 ```{r passagemdefauna, echo=FALSE, fig.cap='Passagem de fauna. Fonte: ©Diego Varela.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/passagem_de_fauna.jpg")
 ```
 
-### Ponte
+##### • Ponte
 Estrutura suspensa por colunas e habitualmente com presença de água (exceto períodos de seca) e comprimento acima de 10 m (Figura \@ref(fig:ponte)).
 ```{r ponte, echo=FALSE, fig.cap='Ponte. Fonte: ©EGR – Empresa Gaúcha de Rodovias.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/ponte.JPG")
 ```
 
-### Pontilhão
+##### • Pontilhão
 Estrutura suspensa, sem colunas, habitualmente com presença de água (exceto períodos de seca) com comprimento entre 3 e 10 m.
 ```{r pontilhao, echo=FALSE, fig.cap='Pontilhão.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/sem_foto.png")
 ```
 
-### Viaduto
+##### • Viaduto
 Estrutura suspensa por colunas e sem presença de água (Figura \@ref(fig:viaduto)).
 ```{r viaduto, echo=FALSE, fig.cap='Viaduto. Fonte: ©Diego Varela.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/viaduto.jpg")
 ```
 
-## Coluna `structure_cell`
+#### Coluna `structure_cell`
 Determinadas estruturas, principalmente as drenagens de água, podem ser formadas por múltiplas estruturas paralelas de mesma função. Essa coluna tem por objetivo receber o número de estruturas paralelas (por analogia, nos exemplos, é contabilizado o número de aberturas de um dos lados da estrutura). Os exemplos abaixo não esgotam as possibilidades (p. ex. quádrupla (4), quíntupla (5) etc.).
 
-### Simples (1)
+##### • Simples (1)
 Estrutura com abertura única (Figura \@ref(fig:cellssimples)).
 ```{r cellssimples, echo=FALSE, fig.cap='Passagem simples (abertura única). Fonte: ©EGR – Empresa Gaúcha de Rodovias.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/cells_simples.jpg")
 ```
 
-### Dupla (2)
+##### • Dupla (2)
 Estrutura com duas aberturas (Figura \@ref(fig:cellsdupla)).
 ```{r cellsdupla, echo=FALSE, fig.cap='Passagem dupla (duas aberturas). Fonte: ©EGR – Empresa Gaúcha de Rodovias.', fig.align='center', out.width='45%'}
 knitr::include_graphics(c("Imagens/cells_dupla.jpg"))
 ```
 
-### Tripla (3)
+##### • Tripla (3)
 Estrutura com três aberturas (Figura \@ref(fig:cellstripla)).
 ```{r cellstripla, echo=FALSE, fig.cap='Passagem tripla (três aberturas). Fonte: ©EGR – Empresa Gaúcha de Rodovias.', fig.align='center', out.width='50%'}
 knitr::include_graphics(c("Imagens/cells_tripla.jpg"))
 ```
 
-## Coluna `structure_shape`
+#### Coluna `structure_shape`
 Determinadas estruturas, principalmente as drenagens de água, costumam ter formatos de embocadura predeterminados, como circular (ou tubular / elíptico), celular (quadrado ou retangular) e em arco.
 
-### Celular
+##### • Celular
 Estrutura com perfil de embocadura com ângulos retos (quadrado ou retangular)
  (Figura \@ref(fig:celular)).
 ```{r celular, echo=FALSE, fig.cap='Estrutura celular. Fonte: ©EGR – Empresa Gaúcha de Rodovias.', fig.align='center', out.width='50%'}
 knitr::include_graphics(c("Imagens/celular.jpg"))
 ```
 
-### Tubular
+##### • Tubular
 Perfil de embocadura circular ou elíptico
  (Figura \@ref(fig:tubular)).
 ```{r tubular, echo=FALSE, fig.cap='Estrutura tubular. Fonte: ©EGR – Empresa Gaúcha de Rodovias.', fig.align='center', out.width='50%'}
 knitr::include_graphics(c("Imagens/tubular.jpg"))
 ```
 
-### Arco
+##### • Arco
 Perfil de embocadura circular ou elíptico
  (Figura \@ref(fig:arco)).
 ```{r arco, echo=FALSE, fig.cap='Estrutura em arco.', fig.align='center', out.width='50%'}
 knitr::include_graphics(c("Imagens/sem_foto.png"))
 ```
 
-## Coluna `structure_photo`
+#### Coluna `structure_photo`
 Para que possamos compreender todos os diferentes contextos de passagens de fauna e, eventualmente, realizar confirmações sobre os dados disponibilizados, imagens representativas de cada estrutura de travessia devem ser enviadas no mesmo e-mail da planilha de dados, preferencialmente anexadas ou com link para baixar. A proposta dessa foto **não** é o envio de uma imagem capturada pela armadilha fotográfica, mas uma foto tirada externamente exibindo o número de aberturas (células) e formato da estrutura. Exemplos nesse sentido podem ser encontrados na Figura \@ref(fig:structurephotounder).
 
 ```{r structurephotounder, echo=FALSE, fig.cap='Exemplos de fotos a serem enviadas como demonstração da estrutura de travessia.', fig.align='center', out.width='100%'}
 knitr::include_graphics(c("Imagens/structure_photo_under.png"))
 ```
 
-## Colunas `structure_height`, `structure_width`, `structure_length` e `waterbody_width` {.tabset}
+#### Colunas `structure_height`, `structure_width`, `structure_length` e `waterbody_width`
 
-### Estruturas convencionais
+##### • Estruturas convencionais
 Valores de mensuração da estrutura devem ser fornecidos, como altura (`structure_height` = **a**), largura (`structure_width` = **b**) e comprimento (`structure_length` = **c**) da estrutura (Figura \@ref(fig:structuremedidas)).
 
 Cabe notar que o comprimento pode **não ser** igual à largura da pista, uma vez que existem estruturas esconsas (enviesadas) em relação ao eixo da via.
@@ -140,7 +141,7 @@ Cabe notar que o comprimento pode **não ser** igual à largura da pista, uma ve
 knitr::include_graphics(c("Imagens/structure_medidas.jpg"))
 ```
 
-### Pontes e pontilhões
+##### • Pontes e pontilhões
 O sistema de mensuração é diferenciado no caso de pontes e pontilhões.
 
 Valores de mensuração da estrutura devem ser fornecidos, como altura (`structure_height` = **a**), largura (soma) das margens secas (`structure_width` = **b**), extensão (`structure_length` = **c**) e largura do corpo d'água sob a ponte (`waterbody_width` = **c**) da estrutura (Figura \@ref(fig:structuremedidasagua)).
@@ -148,6 +149,7 @@ Valores de mensuração da estrutura devem ser fornecidos, como altura (`structu
 ```{r structuremedidasagua, echo=FALSE, fig.cap="Esquemas para pontes e pontilhões exibindo as formas de coleta de parâmetros de altura (**a**), largura (soma) das margens secas (**b**), comprimento (**c**) e largura do corpo d'água sob a ponte (**d**) de pontes e pontilhões.", fig.align='center', out.width='100%'}
 knitr::include_graphics(c("Imagens/structure_medidas_agua.jpg"))
 ```
+
 ***
 
 ```{r include=FALSE}
@@ -156,3 +158,10 @@ knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
 ), 'packages.bib')
 ```
+### Planilha OVERPASSES
+
+## English
+### About
+
+## Español
+### Sobre
