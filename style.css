@@ -2,7 +2,11 @@
 
 p.caption {
   color: #555;
-  margin-top: 10px;
+  margin: 0 auto;
+  padding: 0px 0px 10px;
+  font-size: 14px;
+  width: 60%;
+  text-align: center;
 }
 
 p code {
@@ -71,6 +75,11 @@ h5 {
   margin-top: 20px;
 }
 
+h6 {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
 .nav {
   display: flex;
   justify-content: space-between
@@ -81,3 +90,23 @@ h5 {
   font-weight: 400;
   border: 1px solid #001A23
 }
+
+#TOC::before {
+  content: "WILDCROSSDATA: a dataset on the use of crossing structures in Latin America";
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  display: block;
+  height: auto;
+  margin: 10px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+div.tocify {
+  /* width: 100%;
+  max-width: 350px;
+  max-height: 85%; */
+  text-align: initial;
+}
+

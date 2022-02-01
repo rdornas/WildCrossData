@@ -40,41 +40,48 @@ knitr::include_graphics("Imagens/bueiro_corrugado.jpg")
 ```
 
 ##### • Bueiro de metal
+
 ```{r bueirodemetal, echo=FALSE, fig.cap='Bueiro de metal.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/sem_foto.png")
 ```
 
 ##### • Bueiro com plataforma seca (bueiro com passadiço)
+
 ```{r bueiroplataformaseca, echo=FALSE, fig.cap='Bueiro com plataforma seca (bueiro com passadiço).', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/sem_foto.png")
 ```
 
 ##### • Passagem de gado
 Não possui drenagem de água e sua função primária é a de passagem de gado (Figura \@ref(fig:passagemdegado)).
+
 ```{r passagemdegado, echo=FALSE, fig.cap='Passagem de gado. Fonte: ©Diego Varela.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/passagem_de_gado.jpg")
 ```
 
 ##### • Passagem de fauna
 Não possui drenagem de água e sua função primária é a de passagem de fauna (Figura \@ref(fig:passagemdefauna)).
+
 ```{r passagemdefauna, echo=FALSE, fig.cap='Passagem de fauna. Fonte: ©Diego Varela.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/passagem_de_fauna.jpg")
 ```
 
 ##### • Ponte
 Estrutura suspensa por colunas e habitualmente com presença de água (exceto períodos de seca) e comprimento acima de 10 m (Figura \@ref(fig:ponte)).
+
 ```{r ponte, echo=FALSE, fig.cap='Ponte. Fonte: ©EGR – Empresa Gaúcha de Rodovias.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/ponte.JPG")
 ```
 
 ##### • Pontilhão
 Estrutura suspensa, sem colunas, habitualmente com presença de água (exceto períodos de seca) com comprimento entre 3 e 10 m.
+
 ```{r pontilhao, echo=FALSE, fig.cap='Pontilhão.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/sem_foto.png")
 ```
 
 ##### • Viaduto
 Estrutura suspensa por colunas e sem presença de água (Figura \@ref(fig:viaduto)).
+
 ```{r viaduto, echo=FALSE, fig.cap='Viaduto. Fonte: ©Diego Varela.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/viaduto.jpg")
 ```
@@ -84,18 +91,21 @@ Determinadas estruturas, principalmente as drenagens de água, podem ser formada
 
 ##### • Simples (1)
 Estrutura com abertura única (Figura \@ref(fig:cellssimples)).
+
 ```{r cellssimples, echo=FALSE, fig.cap='Passagem simples (abertura única). Fonte: ©EGR – Empresa Gaúcha de Rodovias.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/cells_simples.jpg")
 ```
 
 ##### • Dupla (2)
 Estrutura com duas aberturas (Figura \@ref(fig:cellsdupla)).
+
 ```{r cellsdupla, echo=FALSE, fig.cap='Passagem dupla (duas aberturas). Fonte: ©EGR – Empresa Gaúcha de Rodovias.', fig.align='center', out.width='45%'}
 knitr::include_graphics(c("Imagens/cells_dupla.jpg"))
 ```
 
 ##### • Tripla (3)
 Estrutura com três aberturas (Figura \@ref(fig:cellstripla)).
+
 ```{r cellstripla, echo=FALSE, fig.cap='Passagem tripla (três aberturas). Fonte: ©EGR – Empresa Gaúcha de Rodovias.', fig.align='center', out.width='50%'}
 knitr::include_graphics(c("Imagens/cells_tripla.jpg"))
 ```
@@ -106,6 +116,7 @@ Determinadas estruturas, principalmente as drenagens de água, costumam ter form
 ##### • Celular
 Estrutura com perfil de embocadura com ângulos retos (quadrado ou retangular)
  (Figura \@ref(fig:celular)).
+ 
 ```{r celular, echo=FALSE, fig.cap='Estrutura celular. Fonte: ©EGR – Empresa Gaúcha de Rodovias.', fig.align='center', out.width='50%'}
 knitr::include_graphics(c("Imagens/celular.jpg"))
 ```
@@ -113,6 +124,7 @@ knitr::include_graphics(c("Imagens/celular.jpg"))
 ##### • Tubular
 Perfil de embocadura circular ou elíptico
  (Figura \@ref(fig:tubular)).
+ 
 ```{r tubular, echo=FALSE, fig.cap='Estrutura tubular. Fonte: ©EGR – Empresa Gaúcha de Rodovias.', fig.align='center', out.width='50%'}
 knitr::include_graphics(c("Imagens/tubular.jpg"))
 ```
@@ -120,6 +132,7 @@ knitr::include_graphics(c("Imagens/tubular.jpg"))
 ##### • Arco
 Perfil de embocadura circular ou elíptico
  (Figura \@ref(fig:arco)).
+ 
 ```{r arco, echo=FALSE, fig.cap='Estrutura em arco.', fig.align='center', out.width='50%'}
 knitr::include_graphics(c("Imagens/sem_foto.png"))
 ```
@@ -135,20 +148,173 @@ knitr::include_graphics(c("Imagens/structure_photo_under.png"))
 
 ##### • Estruturas convencionais
 Valores de mensuração da estrutura devem ser fornecidos, como altura (`structure_height` = **a**), largura (`structure_width` = **b**) e comprimento (`structure_length` = **c**) da estrutura (Figura \@ref(fig:structuremedidas)).
-
 Cabe notar que o comprimento pode **não ser** igual à largura da pista, uma vez que existem estruturas esconsas (enviesadas) em relação ao eixo da via.
-```{r structuremedidas, echo=FALSE, fig.cap='Esquemas para estrutura convencionais exibindo as formas de coleta de parâmetros de altura (**a**), largura (**b**) e comprimento (**c**) da estrutura.', fig.align='center', out.width='100%'}
+
+```{r structuremedidas, echo=FALSE, fig.cap='Esquemas para estrutura convencionais exibindo as formas de coleta de parâmetros de altura (**a**), largura (**b**) e comprimento (**c**) da estrutura.', fig.align='center', out.width='80%'}
 knitr::include_graphics(c("Imagens/structure_medidas.jpg"))
 ```
 
 ##### • Pontes e pontilhões
 O sistema de mensuração é diferenciado no caso de pontes e pontilhões.
-
 Valores de mensuração da estrutura devem ser fornecidos, como altura (`structure_height` = **a**), largura (soma) das margens secas (`structure_width` = **b**), extensão (`structure_length` = **c**) e largura do corpo d'água sob a ponte (`waterbody_width` = **c**) da estrutura (Figura \@ref(fig:structuremedidasagua)).
 
 ```{r structuremedidasagua, echo=FALSE, fig.cap="Esquemas para pontes e pontilhões exibindo as formas de coleta de parâmetros de altura (**a**), largura (soma) das margens secas (**b**), comprimento (**c**) e largura do corpo d'água sob a ponte (**d**) de pontes e pontilhões.", fig.align='center', out.width='100%'}
 knitr::include_graphics(c("Imagens/structure_medidas_agua.jpg"))
 ```
+
+### Planilha OVERPASSES
+#### Coluna `structure_type`
+Nessa seção são apresentados os diferentes tipos de estruturas de travessias superiores.
+
+##### • Pontes flexíveis
+###### - Ponte flexível em aço
+Ponte que normalmente consiste em um ou mais cabos de aço (Figura \@ref(fig:flexivelaco)).
+
+```{r flexivelaco, echo=FALSE, fig.cap='Ponte flexível em aço. Fonte: ©Rodosol.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/flexivel_aco.jpg")
+```
+
+###### - Ponte flexível em escada marinheiro
+
+```{r flexivelmarinheiro, echo=FALSE, fig.cap='Ponte flexível em escada marinheiro.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/sem_foto.png")
+```
+
+###### - Ponte flexível em túnel
+Ponte que normalmente consiste em uma trama de cordas em formato retangular (Figura \@ref(fig:flexiveltunel)).
+
+```{r flexiveltunel, echo=FALSE, fig.cap='Ponte flexível em túnel.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/sem_foto.png")
+```
+
+###### - Ponte flexível com mangueira
+
+```{r flexivelmangueira, echo=FALSE, fig.cap='Ponte flexível com mangueira.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/sem_foto.png")
+```
+
+###### - Ponte flexível em redes
+Ponte construída predominantemente por redes em fios sintéticos (tipo nylon) (Figura \@ref(fig:flexivelrede)).
+
+```{r flexivelrede, echo=FALSE, fig.cap='Ponte flexível em redes. Fonte: ©Rubem Dornas.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/flexivel_rede.jpg")
+```
+
+###### - Ponte flexível de corda
+Ponte construída predominantemente por cordas (Figura \@ref(fig:flexivelcorda)).
+
+```{r flexivelcorda, echo=FALSE, fig.cap='Ponte flexível de corda. Fonte: ©Rodosol.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/flexivel_corda.jpg")
+```
+
+##### • Pontes rígidas
+###### - Ponte rígida de taquara
+
+```{r rigidataquara, echo=FALSE, fig.cap='Ponte rígida de taquara.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/sem_foto.png")
+```
+
+###### - Ponte rígida com tronco de madeira
+
+```{r rigidamadeira, echo=FALSE, fig.cap='Ponte rígida com tronco de madeira.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/sem_foto.png")
+```
+
+###### - Ponte rígida com plataforma metálica
+
+```{r rigidametal, echo=FALSE, fig.cap='Ponte rígida com plataforma metálica.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/sem_foto.png")
+```
+
+##### Pontes de vegetação
+###### • Ponte de lianas
+
+```{r vegetacaolianas, echo=FALSE, fig.cap='Ponte de lianas.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/sem_foto.png")
+```
+
+###### • Ponte de copas
+Esse tipo de travessia consiste no encontro natural entre copas de árvores que se juntam ou ficam próximas o suficiente para permitir o cruzamento do animal por sobre a via (Figura \@ref(fig:vegetacaocopas)).
+
+```{r vegetacaocopas, echo=FALSE, fig.cap='Ponte de copas. Fonte: ©Larissa Gonçalves.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/ponte_copas.jpg")
+```
+
+##### Ecoduto
+###### • Viaduto vegetado
+Viaduto construído especificamente para travessia de fauna, costumeiramente com presença de cobertura de gramíneas e arbustos (Figura \@ref(fig:viadutovegetado)).
+
+```{r viadutovegetado, echo=FALSE, fig.cap='Viaduto vegetado. Fonte: ©Diego Varela.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/viaduto_vegetado.jpg")
+```
+
+#### Coluna `structure_branch_access`
+Corresponde ao número de ramificações de acesso à passagem superior
+
+```{r structurebranchaccess, echo=FALSE, fig.cap='Ramificações de acesso à passagem superior.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/sem_foto.png")
+```
+
+#### Coluna `structure_photo`
+Para que possamos compreender todos os diferentes contextos de passagens de fauna e, eventualmente, realizar confirmações sobre os dados disponibilizados, imagens representativas de cada estrutura de travessia devem ser enviadas no mesmo e-mail da planilha de dados, preferencialmente anexadas ou com link para baixar. A proposta dessa foto **não** é o envio de uma imagem capturada pela armadilha fotográfica, mas uma foto tirada externamente exibindo o nformato da estrutura \@ref(fig:structurephotoover).
+
+```{r structurephotoover, echo=FALSE, fig.cap='Exemplo de foto a ser enviada como demonstração da estrutura de travessia. Fonte: ©Diego Varela.', fig.align='center', out.width='40%'}
+knitr::include_graphics(c("Imagens/structure_photo_over.jpg"))
+```
+
+#### Colunas `structure_height`, `structure_length`, `structure_width` e `structure_internal_height`
+Valores de mensuração da estrutura devem ser fornecidos, como altura (`structure_height` = **a**), largura (`structure_width` = **b**), comprimento (`structure_length` = **c**) e altura interna da estrutura (caso se aplique) (`structure_internal_height` = **d**) (Figura \@ref(fig:structuremedidasover)).
+Cabe notar que o comprimento pode **não ser** igual à largura da pista, uma vez os pilares de sustentação das passagens superiores costumam se prolongar em relação à via, ocupando a parte externa da faixa de domínio.
+
+```{r structuremedidasover, echo=FALSE, fig.cap='Esquemas para determinação de medidas de parâmetros de altura (**a**), comprimento (**b**), largura (**c**) e altura interna (**d**) da estrutura.', fig.align='center', out.width='40%'}
+knitr::include_graphics(c("Imagens/sem_foto.png"))
+```
+
+### Planilha FENCING
+#### Colunas `fence_length`
+Esses campos devem ser preenchidos com a extensão da cerca, de acordo com os 4 lados adjacentes à abertura da passagem, nomeados como A1, A2, B1 e B2 (Figura \@ref(fig:fencelength)).
+
+```{r fencelength, echo=FALSE, fig.cap='Exemplo da extensão da cerca de ambos os lados da entrada da estrutura de travessia e também de ambos os lados da infraestrutura linear.', fig.align='center', out.width='80%'}
+knitr::include_graphics(c("Imagens/fence_length.jpg"))
+```
+
+#### Coluna `fence_overhang`
+As cercas direcionadoras podem possuir ou não algum tipo de adorno superior à sua estrutura, normalmente planejado de acordo com a fauna a ser barrada.
+
+##### • Cerca com aba ausente
+O tipo de cerca mais comum, sem adornos (Figura \@ref(fig:cercasemaba)).
+
+```{r cercasemaba, echo=FALSE, fig.cap='Cerca com aba ausente.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/cerca_aba_ausente.png"))
+```
+
+##### • Cerca com aba dobrada rígida
+Cerca cuja aba superior é dobrada, em material rígido, normalmente angulada para fora da via (Figura \@ref(fig:cercaabarigida)).
+
+```{r cercaabarigida, echo=FALSE, fig.cap='Cerca com aba dobrada rígida.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/cerca_aba_rigida.png"))
+```
+
+##### • Cerca com aba dobrada flexível
+A cerca com aba superior dobrada flexível possui material de menor rigidez, visando ceder com o peso do animal (Figura \@ref(fig:cercaflexivel)).
+
+```{r cercaflexivel, echo=FALSE, fig.cap='Cerca com aba dobrada flexível.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/cerca_flexivel.png"))
+```
+
+##### • Cerca com aba rolete
+Cerca em que a aba é em formato de rolo, que gira quando um animal se escora sobre ela (Figura \@ref(fig:cercarolete)).
+
+```{r cercarolete, echo=FALSE, fig.cap='Cerca com aba rolete.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/cerca_rolete.png"))
+```
+
+#### Coluna `fence_conservation`
+##### • Cerca íntegra
+
+##### • Cerca não íntegra
+
+### Planilha CAMERA TRAP
 
 ***
 
@@ -158,7 +324,7 @@ knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
 ), 'packages.bib')
 ```
-### Planilha OVERPASSES
+
 
 ## English
 ### About
