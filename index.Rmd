@@ -226,22 +226,22 @@ knitr::include_graphics("Imagens/sem_foto.png")
 knitr::include_graphics("Imagens/sem_foto.png")
 ```
 
-##### Pontes de vegetação
-###### • Ponte de lianas
+##### • Pontes de vegetação
+###### - Ponte de lianas
 
 ```{r vegetacaolianas, echo=FALSE, fig.cap='Ponte de lianas.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/sem_foto.png")
 ```
 
-###### • Ponte de copas
+###### - Ponte de copas
 Esse tipo de travessia consiste no encontro natural entre copas de árvores que se juntam ou ficam próximas o suficiente para permitir o cruzamento do animal por sobre a via (Figura \@ref(fig:vegetacaocopas)).
 
 ```{r vegetacaocopas, echo=FALSE, fig.cap='Ponte de copas. Fonte: ©Larissa Gonçalves.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/ponte_copas.jpg")
 ```
 
-##### Ecoduto
-###### • Viaduto vegetado
+##### • Ecoduto
+###### - Viaduto vegetado
 Viaduto construído especificamente para travessia de fauna, costumeiramente com presença de cobertura de gramíneas e arbustos (Figura \@ref(fig:viadutovegetado)).
 
 ```{r viadutovegetado, echo=FALSE, fig.cap='Viaduto vegetado. Fonte: ©Diego Varela.', fig.align='center', out.width='40%'}
