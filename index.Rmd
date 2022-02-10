@@ -139,7 +139,7 @@ knitr::include_graphics(c("Imagens/structure_photo_under.png"))
 #### Colunas `structure_height`, `structure_width`, `structure_length` e `waterbody_width`
 
 ##### • Estruturas convencionais
-Valores de mensuração da estrutura devem ser fornecidos, como altura (`structure_height` = **a**), largura (`structure_width` = **b**) e comprimento (`structure_length` = **c1**, **c2**) da estrutura (Figura \@ref(fig:structuremedidas)).Os valores devem ser informados em **metros**.
+Valores de mensuração da estrutura devem ser fornecidos, como altura (`structure_height` = **a**), largura (`structure_width` = **b**) e comprimento (`structure_length` = **c1**, **c2**) da estrutura (Figura \@ref(fig:structuremedidas)). Os valores devem ser informados em **metros**.
 Cabe notar que o comprimento pode **não ser** igual à largura da pista, uma vez que existem estruturas esconsas (c2, enviesadas) em relação ao eixo da via.
 
 ```{r structuremedidas, echo=FALSE, fig.cap='Esquemas para estrutura convencionais exibindo as formas de coleta de parâmetros de altura (**a**), largura (**b**) e comprimento (**c1**, **c2**) da estrutura.', fig.align='center', out.width='80%'}
@@ -148,7 +148,7 @@ knitr::include_graphics(c("Imagens/structure_medidas.jpg"))
 
 ##### • Pontes
 O sistema de mensuração é diferenciado no caso de pontes.
-Valores de mensuração da estrutura devem ser fornecidos, como altura (`structure_height` = **a**), largura (soma) das margens secas (`structure_width` = **b**), extensão (`structure_length` = **c**) e largura do corpo d'água sob a ponte (`waterbody_width` = **d**) da estrutura (Figura \@ref(fig:structuremedidasagua)).Os valores devem ser informados em **metros**.
+Valores de mensuração da estrutura devem ser fornecidos, como altura (`structure_height` = **a**), largura (soma) das margens secas (`structure_width` = **b**), extensão (`structure_length` = **c**) e largura do corpo d'água sob a ponte (`waterbody_width` = **d**) da estrutura (Figura \@ref(fig:structuremedidasagua)). Os valores devem ser informados em **metros**.
 
 ```{r structuremedidasagua, echo=FALSE, fig.cap="Esquemas para pontes e pontilhões exibindo as formas de coleta de parâmetros de altura (**a**), largura (soma) das margens secas (**b**), comprimento (**c**) e largura do corpo d'água sob a ponte (**d**) de pontes e pontilhões.", fig.align='center', out.width='100%'}
 knitr::include_graphics(c("Imagens/ponte_bd.jpg"))
@@ -161,19 +161,22 @@ Nessa seção são apresentados os diferentes tipos de estruturas de travessias 
 ##### • Pontes flexíveis
 São pontes que apresentam material flexível sujeito a oscilações quando o animal está cruzando ou em regiões com ventos. Abaixo segue alguns exemplos.
 
-###### - Ponte flexível em aço (Figura \@ref(fig:flexivelaco)).
+###### - Ponte flexível em aço
+Ponte flexível em aço (Figura \@ref(fig:flexivelaco)).
 
 ```{r flexivelaco, echo=FALSE, fig.cap='Ponte flexível em aço. Fonte: ©Rodosol.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/flexivel_aco.jpg")
 ```
 
-###### - Ponte flexível em redes (Figura \@ref(fig:flexivelrede)).
+###### - Ponte flexível em redes
+Ponte flexível em redes (Figura \@ref(fig:flexivelrede)).
 
 ```{r flexivelrede, echo=FALSE, fig.cap='Ponte flexível em redes. Fonte: ©Rubem Dornas.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/flexivel_rede.jpg")
 ```
 
-###### - Ponte flexível de corda (Figura \@ref(fig:flexivelcorda)).
+###### - Ponte flexível de corda
+Ponte flexível de corda (Figura \@ref(fig:flexivelcorda)).
 
 ```{r flexivelcorda, echo=FALSE, fig.cap='Ponte flexível de corda. Fonte: ©Rodosol.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/flexivel_corda.jpg")
@@ -310,9 +313,9 @@ knitr::write_bib(c(
 ), 'packages.bib')
 ```
 
+## Español
+### Sobre
 
 ## English
 ### About
 
-## Español
-### Sobre
