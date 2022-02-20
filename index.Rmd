@@ -1,4 +1,5 @@
--- 
+
+--- 
 title: 'WILDCROSSDATA: a dataset on the use of crossing structures in Latin America'
 author: Bibiana Terra Dasoler, Ingridi Camboim Franceschi, Diego Varela, Fernanda
   Zimmermann Teixeira, Larissa Donida Biasotto, Larissa Oliveira
