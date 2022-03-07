@@ -179,19 +179,22 @@ Nessa seção são apresentados os diferentes tipos de estruturas de travessias 
 
 São pontes que apresentam material flexível sujeito a oscilações quando o animal está cruzando ou em regiões com ventos fortes. Abaixo segue alguns exemplos.
 
-###### - Ponte flexível em aço (Figura \@ref(fig:flexivelaco)).
+###### - Ponte flexível em aço 
+Pontes que utilizam aço como material para permitir a travessia (Figura \@ref(fig:flexivelaco)).
 
 ```{r flexivelaco, echo=FALSE, fig.cap='Ponte de dossel flexível, material aço. Fonte: ©Rodosol.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/flexivel_aco.jpg")
 ```
 
-###### - Ponte flexível em redes (Figura \@ref(fig:flexivelrede)).
+###### - Ponte flexível em redes 
+Pontes que utilizam redes como material para permitir a travessia (Figura \@ref(fig:flexivelrede)).
 
 ```{r flexivelrede, echo=FALSE, fig.cap='Ponte de dossel flexível, material rede. Fonte: ©Rubem Dornas.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/flexivel_rede.jpg")
 ```
 
-###### - Ponte flexível de corda (Figura \@ref(fig:flexivelcorda)).
+###### - Ponte flexível de corda 
+Pontes que utilizam cordas como material para permitir a travessia (Figura \@ref(fig:flexivelcorda)).
 
 ```{r flexivelcorda, echo=FALSE, fig.cap='Ponte de dossel flexível, material corda. Fonte: ©Rodosol.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/flexivel_corda.jpg")
@@ -209,13 +212,15 @@ knitr::include_graphics("Imagens/tunel.png")
 
 São pontes que apresentam material rígido que não está sujeito a oscilações quando o animal está cruzando ou com presença de ventos. Abaixo segue alguns exemplos.
 
-###### - Ponte rígida com tronco de madeira (Figura \@ref(fig:rigidamadeira)).
+###### - Ponte rígida com tronco de madeira 
+Pontes que utilizam madeira ou tronco de árvores como material para permitir a travessia (Figura \@ref(fig:rigidamadeira)).
 
 ```{r rigidamadeira, echo=FALSE, fig.cap='Ponte de dossel rígida, material tronco de madeira. Fonte: ©Francini Garcia.', fig.align='center', out.width='50%'}
 knitr::include_graphics("Imagens/over_tronco.png")
 ```
 
-###### - Ponte rígida com plataforma metálica (Figura \@ref(fig:rigidametal)).
+###### - Ponte rígida com plataforma metálica 
+Pontes que utilizam metal como material para permitir a travessia (Figura \@ref(fig:rigidametal)).
 
 ```{r rigidametal, echo=FALSE, fig.cap='Ponte de dossel rígida, material metal. Fonte: ©Helio Secco.', fig.align='center', out.width='50%'}
 knitr::include_graphics("Imagens/plataforma_metalica.jpeg")
@@ -259,7 +264,7 @@ knitr::include_graphics(c("Imagens/structure_photo_over.jpg"))
 
 #### Colunas `structure_height`, `structure_length`, `structure_width` e `structure_internal_height`
 
-Valores de mensuração da estrutura devem ser fornecidos, como altura (`structure_height` = **a**), largura (`structure_width` = **b**), comprimento (`structure_length` = **c**) e altura interna da estrutura (caso se aplique) (`structure_internal_height` = **d**) (Figura \@ref(fig:structuremedidasover) e \@ref(fig:structuremedidasover2)).Os valores devem ser informados em **metros**. Cabe notar que o comprimento pode **não ser** igual à largura da pista, uma vez os pilares de sustentação das passagens superiores costumam se distanciar da via sendo implantadas na faixa de domínio.
+Valores de mensuração da estrutura devem ser fornecidos, como altura (`structure_height` = **a**), largura (`structure_width` = **b**), comprimento (`structure_length` = **c**) e altura interna da estrutura (caso se aplique) (`structure_internal_height` = **d**) (Figura \@ref(fig:structuremedidasover) e \@ref(fig:structuremedidasover2)). Os valores devem ser informados em **metros**. Cabe notar que o comprimento pode **não ser** igual à largura da pista, uma vez os pilares de sustentação das passagens superiores costumam se distanciar da via sendo implantadas na faixa de domínio.
 
 ```{r structuremedidasover, echo=FALSE, fig.cap='Esquemas para determinação de medidas de parâmetros de altura (**a**) e comprimento (**b**) da estrutura. Fonte: ©Francini Garcia.', fig.align='center', out.width='60%'}
 knitr::include_graphics(c("Imagens/over_medidas2.jpg"))
@@ -588,19 +593,22 @@ Examples of overpass crossing structure types
 ##### • Flexible canopy bridges
 These are bridges that have flexible material subject to oscillations when the animal is crossing or in windy regions. Below are some examples.
 
-###### - Steel flexible canopy bridge (Figure \@ref(fig:flexiblesteel)).
+###### - Steel flexible canopy bridge 
+Bridges that use steel as material to allow crossing (Figure \@ref(fig:flexiblesteel)).
 
 ```{r flexiblesteel, echo=FALSE, fig.cap='Flexible canopy bridge, steel material. Fonte: ©Rodosol.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/flexivel_aco.jpg")
 ```
 
-###### - Netting flexible canopy bridge (Figure \@ref(fig:flexiblenetting)).
+###### - Netting flexible canopy bridge 
+Bridges that use nets as material to allow crossing (Figure \@ref(fig:flexiblenetting)).
 
 ```{r flexiblenetting, echo=FALSE, fig.cap='Flexible canopy bridge, netting material. Fonte: ©Rubem Dornas.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/flexivel_rede.jpg")
 ```
 
-###### - Rope flexible canopy bridge (Figure \@ref(fig:flexiblerope)).
+###### - Rope flexible canopy bridge 
+Bridges that use ropes as material to allow crossing (Figure \@ref(fig:flexiblerope)).
 
 ```{r flexiblerope, echo=FALSE, fig.cap='Flexible canopy bridge, rope material. Fonte: ©Rodosol.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/flexivel_corda.jpg")
@@ -616,13 +624,15 @@ knitr::include_graphics("Imagens/sem_foto.png")
 ##### • Rigid canopy bridges
 These are bridges that feature a rigid material that is **not** subject to oscillation when the animal is crossing or in the presence of wind. Below are some examples.
 
-###### - Wooden trunk rigid canopy bridge (Figure \@ref(fig:woodenrigid)).
+###### - Wooden trunk rigid canopy bridge 
+Bridges made with wood or wooden trunk to allow crossing (Figure \@ref(fig:woodenrigid)).
 
 ```{r woodenrigid, echo=FALSE, fig.cap='Rigid canopy bridge, wooden trunk material. Fonte: ©Francini Garcia.', fig.align='center', out.width='50%'}
 knitr::include_graphics("Imagens/over_tronco.png")
 ```
 
-###### - Metal platform rigid canopy bridge (Figure \@ref(fig:rigidmetal)).
+###### - Metal platform rigid canopy bridge 
+Bridges made with metal material to allow crossing (Figure \@ref(fig:rigidmetal)).
 
 ```{r rigidmetal, echo=FALSE, fig.cap='Rigid canopy bridge, metal material. Fonte: ©Helio Secco.', fig.align='center', out.width='50%'}
 knitr::include_graphics("Imagens/plataforma_metalica.jpeg")
