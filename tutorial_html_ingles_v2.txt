@@ -1,0 +1,385 @@
+## English
+### About
+
+This tutorial has the purpose to help you fill out the spreadsheet. Each section in the spreadsheet is represented separately in this tutorial with examples and details of some required information for some column. There are some great shortcuts that can help you get the work done a lot faster and easier.
+We covered different structure types and examples; however, we recognize that there may be different contexts, which differ from the examples given here. Please feel free to contact us if you need any further information or have any questions: passagensfauna@gmail.com
+
+### Spreadsheet: UNDERPASSES
+
+#### Column: `structure_type`
+Each image represents ony one possible example of crossing structure types (Based on their primary function and the structure material)
+
+##### • Concrete culverts
+Primary water connectivity function (Figure \@ref(fig:concreteculverts)).
+
+```{r concreteculverts, echo=FALSE, fig.cap='Concrete culverts. Fonte: ©Diego Varela.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/bueiro_concreto.jpg")
+```
+
+##### • Corrugated culvert
+Metal walls with corrugations (Figure \@ref(fig:conrugatedculvert)).
+
+```{r conrugatedculvert, echo=FALSE, fig.cap='Conrugated culvert. Fonte: ©NERF.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/bueiro_corrugado.jpg")
+```
+
+##### • Metal culvert
+Smooth or corrugated metal walls (Figure \@ref(fig:metalculvert)).
+
+```{r metalculvert, echo=FALSE, fig.cap='Metal culvert. Fonte: ©Diego Varela.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/bueiro_metal.jpeg")
+```
+
+##### • Culvert with dry ledges (culvert with walkway)
+Primary water connectivity function, but with dry ledges that allow wildlife to cross (Figure \@ref(fig:culvertwithdryrunway)).
+
+```{r culvertwithdryrunway, echo=FALSE, fig.cap='Culvert with dry runway (culvert with walkway). Fonte: ©Fernanda Teixeira.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/bueiro_plataforma_seca.jpeg")
+```
+
+##### • Cattle passage
+No drainage and the primary function as cattle passage (Figure \@ref(fig:cattlepassage)).
+
+```{r cattlepassage, echo=FALSE, fig.cap='Cattle passage. Fonte: ©Diego Varela.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/passagem_de_gado.jpg")
+```
+
+##### • Wildlife passage
+No drainage and the primary function as wildlife (Figure \@ref(fig:wildlifepassage)).
+
+```{r wildlifepassage, echo=FALSE, fig.cap='Wildlife passage. Fonte: ©Diego Varela.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/passagem_de_fauna.jpg")
+```
+
+##### • Bridges
+Structures with/without pillars and with/without waterbody (except for dry season). Examples: viaducts and bridges (Figure \@ref(fig:bridge) e \@ref(fig:viaduct)).
+
+```{r bridge, echo=FALSE, fig.cap='Bridges. Fonte: ©NERF.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/ponte.JPG")
+```
+
+```{r viaduct, echo=FALSE, fig.cap='Viaduct. Fonte: ©Diego Varela.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/viaduto.jpg")
+```
+
+#### Column: `structure_cell`
+Some structures, mostly the water drein, can contain multiple parallel structures of the same function. This column aims to inform the number of parallel structures (by analogy, in the examples, the number of openings on one side of the structure is counted). The examples below do not exhaust the possibilities (e.g. quadruple (4), quintuple (5), etc.).
+
+##### • Single (1)
+One opening structure (Figure \@ref(fig:cellssingle)).
+
+```{r cellssingle, echo=FALSE, fig.cap='Single passage (one opening). Fonte: ©NERF.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/cells_simples.jpg")
+```
+
+##### • Double (2)
+Two opening structure (Figure \@ref(fig:cellsdouble)).
+
+```{r cellsdouble, echo=FALSE, fig.cap='Double passage (two opening). Fonte: ©NERF.', fig.align='center', out.width='45%'}
+knitr::include_graphics(c("Imagens/cells_dupla.jpg"))
+```
+
+##### • Triple (3)
+Three opening structure (Figure \@ref(fig:cellstriple)).
+
+```{r cellstriple, echo=FALSE, fig.cap='Triple passage (three opening). Fonte: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/cells_tripla.jpg"))
+```
+
+#### Column: `structure_shape`
+Some structures, mostly the water drein, usually have predetermined opening shape, such as pipe (culvert/elliptical), cell (box ou square) and in arch.
+
+##### • Box
+Right angled opening profile (square or rectangular) (Figure \@ref(fig:box)).
+ 
+```{r box, echo=FALSE, fig.cap='Box structure. Fonte: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/celular.jpg"))
+```
+
+##### • Pipe
+Round or elliptical opening profile (Figure \@ref(fig:pipe)).
+ 
+```{r pipe, echo=FALSE, fig.cap='Pipe structure. Fonte: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/tubular.jpg"))
+```
+
+##### • Arch
+Arch opening profile (Figure \@ref(fig:arch)).
+ 
+```{r arch, echo=FALSE, fig.cap='Arch structure. Fonte: ©Fernanda Teixeira.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/bueiro_arco.jpeg"))
+```
+
+#### Column: `structure_photo`
+In order to understand all different underpasses contexts and, evetually, make confirmations on the data provided, representative images of each underpass should be sent in the same data spreadsheet e-mail, preferably attached or a link to download. 
+This image purpose is **not** a image taken by the camera trap, but a image taken outside showing the opening number of the structure (cells) and its shape. 
+Examples below in Figure \@ref(fig:structurephotounder2).
+
+```{r structurephotounder2, echo=FALSE, fig.cap='Exemples of photos to be sent as demonstration of underpasses.', fig.align='center', out.width='100%'}
+knitr::include_graphics(c("Imagens/structure_photo_under.png"))
+```
+
+#### Columns: `structure_height`, `structure_width`, `structure_length` e `waterbody_width`
+
+##### • Conventional structures
+Measurements to be reported, as height (`structure_height` = **a**), width (`structure_width` = **b**) e length (`structure_length` = **c**, **c1**, **c2**) of the underpasses (Figure \@ref(fig:structuremeasure)). The values must be reported in **meters**.
+It should be noted that the length may not be equal to the road width, since there are oblique structures (**c1**, skewed) in relation to the road axis or on roads with an embankment, where the structure extends beyond the width of the road and shoulder (**c2**).
+
+```{r structuremeasure, echo=FALSE, fig.cap='Schematics for conventional structure showing the ways of obtaing the parameters of height (**a**), width(**b**) and length (**c1**, **c2**) of the underpasses.', fig.align='center', out.width='80%'}
+knitr::include_graphics(c("Imagens/under_measure.jpg"))
+```
+
+##### • Bridges
+In case of bridges the measurements is different.
+Measurements to be reported, as height (`structure_height` = **a**), width (sum) of the dry bank width under bridges of both sides (`structure_width` = **b**), extension (`structure_length` = **c**) and length of waterbody under the bridge (`waterbody_width` = **d**) of the underpasses (Figure \@ref(fig:structuremeasurewater)). The values must be reported in **meters**.
+
+```{r structuremeasurewater, echo=FALSE, fig.cap="Schematics for bridges showing the ways of obtaining the of height (**a**), width (sum) of the stream width under bridges (**b**), length (**c**) and length of waterbody under the bridge (**d**).", fig.align='center', out.width='100%'}
+knitr::include_graphics(c("Imagens/ponte_bd.jpg"))
+```
+
+### Spreadsheet: OVERPASSES
+#### Column: `structure_type`
+Each image represents ony one possible example of crossing structure types
+
+##### • Flexible canopy bridges
+These are canopy bridges built with flexible material that can oscillate when animals are crossing or in windy regions. Below are some examples.
+
+###### - Steel flexible canopy bridge 
+Bridges that use steel as material to allow crossing (Figure \@ref(fig:flexiblesteel)).
+
+```{r flexiblesteel, echo=FALSE, fig.cap='Flexible canopy bridge, steel material. Fonte: ©Rodosol.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/flexivel_aco.jpg")
+```
+
+###### - Netting flexible canopy bridge 
+Bridges that use nets as material to allow crossing (Figure \@ref(fig:flexiblenetting)).
+
+```{r flexiblenetting, echo=FALSE, fig.cap='Flexible canopy bridge, netting material. Fonte: ©Rubem Dornas.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/flexivel_rede.jpg")
+```
+
+###### - Rope flexible canopy bridge 
+Bridges that use ropes as material to allow crossing (Figure \@ref(fig:flexiblerope)).
+
+```{r flexiblerope, echo=FALSE, fig.cap='Flexible canopy bridge, rope material. Fonte: ©Rodosol.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/flexivel_corda.jpg")
+```
+
+###### - Tunnel flexible canopy bridge
+Bridge that normally consists of a weave of ropes in a rectangular shape (Figure \@ref(fig:flexibletunnel)).
+
+```{r flexibletunnel, echo=FALSE, fig.cap='Flexible canopy bridge, tunnel shape.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/tunel.png")
+```
+
+##### • Rigid canopy bridges
+These are canopy bridges built with flexible material that can **not** oscillate when animals are crossing or in windy regions. Below are some examples.
+
+
+###### - Wooden trunk rigid canopy bridge 
+Bridges made with wood or wooden trunk to allow crossing (Figure \@ref(fig:woodenrigid)).
+
+```{r woodenrigid, echo=FALSE, fig.cap='Rigid canopy bridge, wooden trunk material. Fonte: ©Francini Garcia.', fig.align='center', out.width='50%'}
+knitr::include_graphics("Imagens/over_tronco.png")
+```
+
+###### - Metal platform rigid canopy bridge 
+Bridges made with metal material to allow crossing (Figure \@ref(fig:rigidmetal)).
+
+```{r rigidmetal, echo=FALSE, fig.cap='Rigid canopy bridge, metal material. Fonte: ©Helio Secco.', fig.align='center', out.width='50%'}
+knitr::include_graphics("Imagens/plataforma_metalica.jpeg")
+```
+
+##### • Vegetated canopy bridges
+
+###### - Canopy vegetated bridge
+This overpass allow connection or proximity between tree canopies on both sides that come together or are close enough to allow the animal to cross over the track (Figure \@ref(fig:vegetatedcanopy)).
+
+```{r vegetatedcanopy, echo=FALSE, fig.cap='Canopy bridge, vegetation with tree canopies. Fonte: ©Larissa Gonçalves.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/ponte_copas.jpg")
+```
+
+##### • Ecoducts
+###### - Vegetated Viaduct 
+Viaduct built specifically for wildlife crossing, usually with grass and shrub cover (Figure \@ref(fig:vegetatedviaduct)).
+
+```{r vegetatedviaduct, echo=FALSE, fig.cap='Vegetated viaduct. Fonte: ©Diego Varela.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/viaduto_vegetado.jpg")
+```
+
+#### Column: `structure_branch_access`
+Corresponding the number of branch accesses installed to give access to the overpass (Figura \@ref(fig:structurebranchaccess2))..
+
+```{r structurebranchaccess2, echo=FALSE, fig.cap='Brach access to the overpass.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/sem_foto.png")
+```
+
+#### Column: `structure_photo`
+In order to understand all different underpasses contexts and, evetually, make confirmations on the data provided, representative images of each underpass should be sent in the same data spreadsheet e-mail, preferably attached or a link to download. 
+This image purpose is **not** a image taken by the camera trap, but a image taken outside showing the opening number of the structure (cells) and its shape. 
+Examples below in (Figure \@ref(fig:over_medidas.jpg)).
+
+```{r structurephotoover1, echo=FALSE, fig.cap='Exemple of photos to be sent as demonstration of overpass. Fonte: ©Francini Garcia.', fig.align='center', out.width='40%'}
+knitr::include_graphics(c("Imagens/structure_photo_over.jpg"))
+```
+
+#### Columns `structure_height`, `structure_length`, `structure_width` e `structure_internal_height`
+Measurements to be reported, as height (`structure_height` = **a**), width(`structure_width` = **b**), length (`structure_length` = **c**) and internal height of the structure in tunnel shape (if applicable) (`structure_internal_height` = **d**) (Figura \@ref(fig:structuremedidasover22) e \@ref(fig:structuremedidasover222)). The values must be reported in **meters**.
+
+```{r structuremedidasover22, echo=FALSE, fig.cap='Schemes for determining parameter measurements of height (**a**) and length (**b**) of the structure. Fonte: ©Francini Garcia.', fig.align='center', out.width='60%'}
+knitr::include_graphics(c("Imagens/over_medidas2.jpg"))
+```
+```{r structuremedidasover222, echo=FALSE, fig.cap='Schemes for determining parameter measurements of width (**c**) and internal height (**d**) of the structure. Fonte: ©David Bax.', fig.align='center', out.width='60%'}
+knitr::include_graphics(c("Imagens/tunel_medidas.png"))
+```
+
+### Spreadsheet: FENCING
+#### Columns: `fence_length_A1`, `fence_length_B1`, `fence_length_A2`, `fence_length_B2`
+This section must be filled with the fences extensions, according to the 4 adjacent sides to the crossing structure opening, named as **A1**, **A2**, **B1** e **B2** (Figure \@ref(fig:fencelength2)).
+
+```{r fencelength2, echo=FALSE, fig.cap='Example of the extension of the fence on both sides of the opening of the crossing structure and also on both sides of the linear infrastructure.', fig.align='center', out.width='80%'}
+knitr::include_graphics(c("Imagens/fence_length_ing.jpg"))
+```
+
+#### Column: `fence_overhang`
+The directional fences may or may not have some type of flap on top of its structure, usually planned according to the fauna to be barred
+
+##### • Fence without overhang 
+The most common type, without top flap (Figure \@ref(fig:fencewithouttop)).
+
+```{r fencewithouttop, echo=FALSE, fig.cap='Fence without overhang .', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/cerca_aba_ausente.png"))
+```
+
+##### • Fence with folded overhang
+Fence with an angled top flap, in rigid material, usually angled to outside the road (Figure \@ref(fig:fencerigidtop)).
+
+```{r fencerigidtop, echo=FALSE, fig.cap='Fence with folded overhang.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/cerca_aba_rigida.png"))
+```
+
+##### • Fence with flexible overhang
+Fence with flexible top flap in less rigid material, it has the purpose to gives in with the weight of the animal (Figure \@ref(fig:fenceflexible)).
+
+```{r fenceflexible, echo=FALSE, fig.cap='Fence with flexible overhang.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/cerca_flexivel.png"))
+```
+
+##### • Fence with rollers overhang or similar
+Fence with a roller-shaped flap that rotates when an animal struts on it (Figure \@ref(fig:fenceroller)).
+
+```{r fenceroller, echo=FALSE, fig.cap='Fence with rollers overhang.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/cerca_rolete.png"))
+```
+
+#### Column: `fence_conservation`
+Any possibility of track access to the fence is considered non-intact, because it loses the function of blocking access to the road. Below are some examples of conservation fences.
+
+##### • Intact fence
+The fence does **not** have holes, defects or irregularity (Figure \@ref(fig:fenceintegrate)).
+
+```{r fenceintegrate, echo=FALSE, fig.cap='Example of integrate fence. Fonte: ©Fernanda Teixeira.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/cerca_integra.jpeg"))
+```
+
+##### • Non-intact fence
+The fence has holes and/or defects (Figure \@ref(fig:fencenonintegrate)).
+
+```{r fencenonintegrate, echo=FALSE, fig.cap='Example of non-integrate fence. Fonte: ©Fernanda Teixeira.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/cerca_nao_integra.jpeg"))
+```
+
+### Spreadsheet: CAMERA TRAP
+#### Columns: `camera_position`
+Examples of camera trap position in relation to the crossing structure.
+
+##### • Inside border position
+The camera trap is positioned on the inner border of the crossing structure (Figure \@ref(fig:internborder)).
+
+```{r internborder, echo=FALSE, fig.cap='Camera position on the inner border. Fonte: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/camera_position_interna_borda.jpg"))
+```
+
+##### • Inside center position
+The camera trap is positioned on the inside and in the center of the crossing structure (Figure \@ref(fig:interncenter)).
+
+```{r interncenter, echo=FALSE, fig.cap='Camera with inner center position. Fonte: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/camera_position_interna_central.jpg"))
+```
+
+##### • Outside position
+The camera trap is positioned outside of the crossing structure (Figure \@ref(fig:outside)).
+```{r outside, echo=FALSE, fig.cap='Camera with outside position. Fonte: ©ENERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/camera_position_externa.jpg"))
+```
+
+#### Columns: `camera_view`
+Examples of camera trap view in relation to the crossing structure.
+
+##### • Camera view from the strucure’s opening
+The camera trap view is focused on the structure opening (Figure \@ref(fig:cameraviewopen)).
+
+```{r cameraviewopen, echo=FALSE, fig.cap='Camera view for the strucure’s opening. Fonte: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/camera_visao_abertura.jpg"))
+```
+
+##### • Camera view from inside the structure 
+The camera trap is focused to inside the crossing structure (Figure \@ref(fig:cameraviewintern)).
+
+```{r cameraviewintern, echo=FALSE, fig.cap='Camera view to inside the structure. Fonte: ©Diego Varela.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/camera_visao_interior.jpg"))
+```
+
+#### Columns `camera_vision_photo`
+Examples of photos taken by the camera trap for visualization of the environment. 
+**The images must be attached and sent in the same data spreadsheet e-mail!**
+
+```{r cameravisionphoto2, echo=FALSE, fig.cap='Examples of images with the camera trap vision to be sent. Fonte: ©Diego Varela.', fig.align='center', out.width='90%'}
+knitr::include_graphics(c("Imagens/camera_vision_photo.jpg"))
+```
+
+#### Columns: `Behavior`
+Examples of animal behaviors in relation to the crossing structure to be consider.
+
+#### • Inside
+The animal is inside the crossing structure (Figure \@ref(fig:inside)).
+
+```{r inside, echo=FALSE, fig.cap='The animal is inside the crossing structure. Fonte: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/behavior_dentro.jpg"))
+```
+
+#### • Getting in
+The animal is getting inside the crossing structure (Figure \@ref(fig:getin)).
+
+```{r getin, echo=FALSE, fig.cap='The animal is getting inside the crossing structure. Fonte: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/behavior_entrando.jpg"))
+```
+
+#### • Getting out
+The animal is getting out the crossing structure (Figure \@ref(fig:getout)).
+
+```{r getout, echo=FALSE, fig.cap='The animal is getting out the crossing structure. Fonte: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/behavior_saindo.jpg"))
+```
+
+#### • Surrounding
+When it is not classified in any other category, but the animal was close to the passage (Figure \@ref(fig:surround)).
+
+```{r surround, echo=FALSE, fig.cap='The animal is close to the crossing structure. Fonte: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/behavior_arredores.jpg"))
+```
+
+#### • Avoiding
+Video or sequence photos confirming that the animal gave up on getting in the crossing structure (Figure \@ref(fig:avoid)).
+
+```{r avoid, echo=FALSE, fig.cap='Example of animal avoiding/given up to getting inside the crossing structure.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/sem_foto.png")
+```
+***
+
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown'
+), 'packages.bib')
+```
