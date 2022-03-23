@@ -148,7 +148,7 @@ knitr::include_graphics(c("Imagens/bueiro_arco.jpeg"))
 Para que possamos compreender todos os diferentes contextos de passagens de fauna e, eventualmente, realizar confirmações sobre os dados disponibilizados, imagens representativas de cada estrutura de travessia devem ser enviadas no mesmo e-mail da planilha de dados, preferencialmente anexadas ou com link para baixar. A proposta dessa foto **não** é o envio de uma imagem capturada pela armadilha fotográfica, mas uma foto tirada externamente exibindo o número de embocaduras (células) e formato da estrutura. Exemplos nesse sentido podem ser encontrados na Figura \@ref(fig:structurephotounder).
 
 ```{r structurephotounder, echo=FALSE, fig.cap='Exemplos de fotos a serem enviadas como demonstração da estrutura de travessia.', fig.align='center', out.width='100%'}
-knitr::include_graphics(c("Imagens/structure_photo_under.png"))
+knitr::include_graphics(c("Imagens/structure_photo_under.jpg"))
 ```
 
 #### Colunas: `structure_height`, `structure_width`, `structure_length` e `waterbody_width`
@@ -166,7 +166,7 @@ knitr::include_graphics(c("Imagens/under_medidas.jpg"))
 O sistema de mensuração é diferenciado no caso de pontes. Valores de mensuração da estrutura devem ser fornecidos, como altura (`structure_height` = **a**), largura (soma) das margens secas (`structure_width` = **b**), extensão (`structure_length` = **c**) e largura do corpo d'água sob a ponte (`waterbody_width` = **d**) da estrutura (Figura \@ref(fig:structuremedidasagua)).Os valores devem ser informados em **metros**.
 
 ```{r structuremedidasagua, echo=FALSE, fig.cap="Esquemas para pontes e pontilhões exibindo as formas de coleta de parâmetros de altura (**a**), largura (soma) das margens secas (**b**), comprimento (**c**) e largura do corpo d'água sob a ponte (**d**) de pontes e pontilhões.", fig.align='center', out.width='100%'}
-knitr::include_graphics(c("Imagens/ponte_bd.jpg"))
+knitr::include_graphics(c("Imagens/structure_medidas_agua.jpg"))
 ```
 
 ### Planilha: OVERPASSES
@@ -216,7 +216,7 @@ São pontes que apresentam material rígido que não está sujeito a oscilaçõe
 Pontes que utilizam madeira ou tronco de árvores como material para permitir a travessia (Figura \@ref(fig:rigidamadeira)).
 
 ```{r rigidamadeira, echo=FALSE, fig.cap='Ponte de dossel rígida, material tronco de madeira. Fonte: ©Francini Garcia.', fig.align='center', out.width='50%'}
-knitr::include_graphics("Imagens/over_tronco.png")
+knitr::include_graphics("Imagens/over_tronco.jpg")
 ```
 
 ###### - Ponte rígida com plataforma metálica 
@@ -250,8 +250,8 @@ knitr::include_graphics("Imagens/viaduto_vegetado.jpg")
 
 Corresponde ao número de ligações implantadas para dar acesso à passagem superior (Figura \@ref(fig:structurebranchaccess)).
 
-```{r structurebranchaccess, echo=FALSE, fig.cap='Ramificações de acesso à passagem superior.', fig.align='center', out.width='40%'}
-knitr::include_graphics("Imagens/sem_foto.png")
+```{r structurebranchaccess, echo=FALSE, fig.cap='Ramificações de acesso à passagem superior. Fonte: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics("Imagens/branch_access_pt2.png")
 ```
 
 #### Coluna: `structure_photo`
@@ -270,7 +270,7 @@ Valores de mensuração da estrutura devem ser fornecidos, como altura (`structu
 knitr::include_graphics(c("Imagens/over_medidas2.jpg"))
 ```
 ```{r structuremedidasover2, echo=FALSE, fig.cap='Esquemas para determinação de medidas de parâmetros de largura (**c**) e altura interna (**d**) da estrutura. Fonte: ©David Bax.', fig.align='center', out.width='60%'}
-knitr::include_graphics(c("Imagens/tunel_medidas.png"))
+knitr::include_graphics(c("Imagens/tunel_medidas.jpg"))
 ```
 
 
@@ -280,7 +280,7 @@ knitr::include_graphics(c("Imagens/tunel_medidas.png"))
 
 Esses campos devem ser preenchidos com a extensão da cerca de acordo com os 4 lados adjacentes à embocadura da passagem, nomeados como **A1**, **A2**, **B1** e **B2** (Figura \@ref(fig:fencelength)).
 
-```{r fencelength, echo=FALSE, fig.cap='Exemplo da extensão da cerca de ambos os lados da embocadura da estrutura de travessia e também de ambos os lados da infraestrutura linear.', fig.align='center', out.width='80%'}
+```{r fencelength, echo=FALSE, fig.cap='Exemplo da extensão da cerca de ambos os lados da embocadura da estrutura de travessia e também de ambos os lados da infraestrutura linear. Fonte: ©NERF.', fig.align='center', out.width='80%'}
 knitr::include_graphics(c("Imagens/fence_length2.jpg"))
 ```
 
@@ -292,7 +292,7 @@ As cercas direcionadoras podem possuir ou não algum tipo de aba superior à sua
 
 O tipo de cerca mais comum, sem abas (Figura \@ref(fig:cercasemaba)).
 
-```{r cercasemaba, echo=FALSE, fig.cap='Cerca com aba ausente.', fig.align='center', out.width='50%'}
+```{r cercasemaba, echo=FALSE, fig.cap='Cerca com aba ausente. Fonte: ©NERF.', fig.align='center', out.width='50%'}
 knitr::include_graphics(c("Imagens/cerca_aba_ausente.png"))
 ```
 
@@ -300,7 +300,7 @@ knitr::include_graphics(c("Imagens/cerca_aba_ausente.png"))
 
 Cerca cuja aba superior é angulada, em material rígido, normalmente angulada para fora da via (Figura \@ref(fig:cercaabarigida)).
 
-```{r cercaabarigida, echo=FALSE, fig.cap='Cerca com aba angulada rígida.', fig.align='center', out.width='50%'}
+```{r cercaabarigida, echo=FALSE, fig.cap='Cerca com aba angulada rígida. Fonte: ©NERF.', fig.align='center', out.width='50%'}
 knitr::include_graphics(c("Imagens/cerca_aba_rigida.png"))
 ```
 
@@ -308,7 +308,7 @@ knitr::include_graphics(c("Imagens/cerca_aba_rigida.png"))
 
 A cerca com aba superior dobrada flexível possui material de menor rigidez, visando ceder com o peso do animal (Figura \@ref(fig:cercaflexivel)).
 
-```{r cercaflexivel, echo=FALSE, fig.cap='Cerca com aba dobrada flexível.', fig.align='center', out.width='50%'}
+```{r cercaflexivel, echo=FALSE, fig.cap='Cerca com aba dobrada flexível. Fonte: ©NERF.', fig.align='center', out.width='50%'}
 knitr::include_graphics(c("Imagens/cerca_flexivel.png"))
 ```
 
@@ -316,7 +316,7 @@ knitr::include_graphics(c("Imagens/cerca_flexivel.png"))
 
 Cerca em que a aba é em formato de rolo, que gira quando um animal se escora sobre ela (Figura \@ref(fig:cercarolete)).
 
-```{r cercarolete, echo=FALSE, fig.cap='Cerca com aba rolete.', fig.align='center', out.width='50%'}
+```{r cercarolete, echo=FALSE, fig.cap='Cerca com aba rolete. Fonte: ©NERF.', fig.align='center', out.width='50%'}
 knitr::include_graphics(c("Imagens/cerca_rolete.png"))
 ```
 
@@ -438,8 +438,8 @@ knitr::include_graphics(c("Imagens/behavior_arredores.jpg"))
 
 Vídeo ou fotos em sequência que confirmam que o animal desistiu de entrar na estrutura de travessia (Figura \@ref(fig:evitando)).
 
-```{r evitando, echo=FALSE, fig.cap='Exemplo de animal evitando/desistindo de entrar na estrutura de travessia.', fig.align='center', out.width='40%'}
-knitr::include_graphics("Imagens/sem_foto.png")
+```{r evitando, echo=FALSE, fig.cap='Exemplo de animal evitando/desistindo de entrar na estrutura de travessia. Fonte: ©Marcel Huijser.', fig.align='center', out.width='90%'}
+knitr::include_graphics("Imagens/evitando.jpg")
 ```
 
 ------------------------------------------------------------------------
@@ -450,7 +450,6 @@ knitr::write_bib(c(
   .packages(), 'bookdown', 'knitr', 'rmarkdown'
 ), 'packages.bib')
 ```
-
 ## English
 
 ### About
@@ -570,7 +569,7 @@ This image purpose is **not** a image taken by the camera trap, but a image take
 Examples below in Figure \@ref(fig:structurephotounder2).
 
 ```{r structurephotounder2, echo=FALSE, fig.cap='Exemples of photos to be sent as demonstration of underpasses.', fig.align='center', out.width='100%'}
-knitr::include_graphics(c("Imagens/structure_photo_under.png"))
+knitr::include_graphics(c("Imagens/structure_photo_under.jpg"))
 ```
 
 #### Columns: `structure_height`, `structure_width`, `structure_length` e `waterbody_width`
@@ -588,7 +587,7 @@ In case of bridges the measurements is different.
 Measurements to be reported, as height (`structure_height` = **a**), width (sum) of the dry bank width under bridges of both sides (`structure_width` = **b**), extension (`structure_length` = **c**) and length of waterbody under the bridge (`waterbody_width` = **d**) of the underpasses (Figure \@ref(fig:structuremeasurewater)). The values must be reported in **meters**.
 
 ```{r structuremeasurewater, echo=FALSE, fig.cap="Schematics for bridges showing the ways of obtaining the of height (**a**), width (sum) of the stream width under bridges (**b**), length (**c**) and length of waterbody under the bridge (**d**).", fig.align='center', out.width='100%'}
-knitr::include_graphics(c("Imagens/ponte_bd.jpg"))
+knitr::include_graphics(c("Imagens/structure_medidas_agua.jpg"))
 ```
 
 ### Spreadsheet: OVERPASSES
@@ -634,7 +633,7 @@ These are canopy bridges built with flexible material that can **not** oscillate
 Bridges made with wood or wooden trunk to allow crossing (Figure \@ref(fig:woodenrigid)).
 
 ```{r woodenrigid, echo=FALSE, fig.cap='Rigid canopy bridge, wooden trunk material. Fonte: ©Francini Garcia.', fig.align='center', out.width='50%'}
-knitr::include_graphics("Imagens/over_tronco.png")
+knitr::include_graphics("Imagens/over_tronco.jpg")
 ```
 
 ###### - Metal platform rigid canopy bridge 
@@ -664,8 +663,8 @@ knitr::include_graphics("Imagens/viaduto_vegetado.jpg")
 #### Column: `structure_branch_access`
 Corresponding the number of branch accesses installed to give access to the overpass (Figura \@ref(fig:structurebranchaccess2))..
 
-```{r structurebranchaccess2, echo=FALSE, fig.cap='Brach access to the overpass.', fig.align='center', out.width='40%'}
-knitr::include_graphics("Imagens/sem_foto.png")
+```{r structurebranchaccess2, echo=FALSE, fig.cap='Brach access to the overpass. Fonte: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics("Imagens/branch_access_ing.png")
 ```
 
 #### Column: `structure_photo`
@@ -684,14 +683,14 @@ Measurements to be reported, as height (`structure_height` = **a**), width(`stru
 knitr::include_graphics(c("Imagens/over_medidas2.jpg"))
 ```
 ```{r structuremedidasover222, echo=FALSE, fig.cap='Schemes for determining parameter measurements of width (**c**) and internal height (**d**) of the structure. Fonte: ©David Bax.', fig.align='center', out.width='60%'}
-knitr::include_graphics(c("Imagens/tunel_medidas.png"))
+knitr::include_graphics(c("Imagens/tunel_medidas.jpg"))
 ```
 
 ### Spreadsheet: FENCING
 #### Columns: `fence_length_A1`, `fence_length_B1`, `fence_length_A2`, `fence_length_B2`
 This section must be filled with the fences extensions, according to the 4 adjacent sides to the crossing structure opening, named as **A1**, **A2**, **B1** e **B2** (Figure \@ref(fig:fencelength2)).
 
-```{r fencelength2, echo=FALSE, fig.cap='Example of the extension of the fence on both sides of the opening of the crossing structure and also on both sides of the linear infrastructure.', fig.align='center', out.width='80%'}
+```{r fencelength2, echo=FALSE, fig.cap='Example of the extension of the fence on both sides of the opening of the crossing structure and also on both sides of the linear infrastructure. Fonte: ©NERF.', fig.align='center', out.width='80%'}
 knitr::include_graphics(c("Imagens/fence_length_ing.jpg"))
 ```
 
@@ -701,28 +700,28 @@ The directional fences may or may not have some type of flap on top of its struc
 ##### • Fence without overhang 
 The most common type, without top flap (Figure \@ref(fig:fencewithouttop)).
 
-```{r fencewithouttop, echo=FALSE, fig.cap='Fence without overhang .', fig.align='center', out.width='50%'}
+```{r fencewithouttop, echo=FALSE, fig.cap='Fence without overhang. Fonte: ©NERF.', fig.align='center', out.width='50%'}
 knitr::include_graphics(c("Imagens/cerca_aba_ausente.png"))
 ```
 
 ##### • Fence with folded overhang
 Fence with an angled top flap, in rigid material, usually angled to outside the road (Figure \@ref(fig:fencerigidtop)).
 
-```{r fencerigidtop, echo=FALSE, fig.cap='Fence with folded overhang.', fig.align='center', out.width='50%'}
+```{r fencerigidtop, echo=FALSE, fig.cap='Fence with folded overhang. Fonte: ©NERF.', fig.align='center', out.width='50%'}
 knitr::include_graphics(c("Imagens/cerca_aba_rigida.png"))
 ```
 
 ##### • Fence with flexible overhang
 Fence with flexible top flap in less rigid material, it has the purpose to gives in with the weight of the animal (Figure \@ref(fig:fenceflexible)).
 
-```{r fenceflexible, echo=FALSE, fig.cap='Fence with flexible overhang.', fig.align='center', out.width='50%'}
+```{r fenceflexible, echo=FALSE, fig.cap='Fence with flexible overhang. Fonte: ©NERF.', fig.align='center', out.width='50%'}
 knitr::include_graphics(c("Imagens/cerca_flexivel.png"))
 ```
 
 ##### • Fence with rollers overhang or similar
 Fence with a roller-shaped flap that rotates when an animal struts on it (Figure \@ref(fig:fenceroller)).
 
-```{r fenceroller, echo=FALSE, fig.cap='Fence with rollers overhang.', fig.align='center', out.width='50%'}
+```{r fenceroller, echo=FALSE, fig.cap='Fence with rollers overhang. Fonte: ©NERF.', fig.align='center', out.width='50%'}
 knitr::include_graphics(c("Imagens/cerca_rolete.png"))
 ```
 
@@ -826,8 +825,8 @@ knitr::include_graphics(c("Imagens/behavior_arredores.jpg"))
 #### • Avoiding
 Video or sequence photos confirming that the animal gave up on getting in the crossing structure (Figure \@ref(fig:avoid)).
 
-```{r avoid, echo=FALSE, fig.cap='Example of animal avoiding/given up to getting inside the crossing structure.', fig.align='center', out.width='40%'}
-knitr::include_graphics("Imagens/sem_foto.png")
+```{r avoid, echo=FALSE, fig.cap='Example of animal avoiding/given up to getting inside the crossing structure. Fonte: ©Marcel Huijser.', fig.align='center', out.width='90%'}
+knitr::include_graphics("Imagens/evitando.jpg")
 ```
 ***
 
