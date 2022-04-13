@@ -264,9 +264,9 @@ knitr::include_graphics(c("Imagens/structure_photo_over.jpg"))
 
 #### Colunas: `structure_height`, `structure_length`, `structure_width` e `structure_internal_height`
 
-Valores de mensuração da estrutura devem ser fornecidos, como altura (`structure_height` = **a**), largura (`structure_width` = **b**), comprimento (`structure_length` = **c**) e altura interna da estrutura (caso se aplique) (`structure_internal_height` = **d**) (Figura \@ref(fig:structuremedidasover) e \@ref(fig:structuremedidasover2)). Os valores devem ser informados em **metros**. Cabe notar que o comprimento pode **não ser** igual à largura da pista, uma vez os pilares de sustentação das passagens superiores costumam se distanciar da via sendo implantadas na faixa de domínio.
+Valores de mensuração da estrutura devem ser fornecidos, como altura (`structure_height` = **a**), extensão (`structure_length` = **b**), largura (`structure_width` = **c**), comprimento  e altura interna da estrutura (caso se aplique) (`structure_internal_height` = **d**) (Figura \@ref(fig:structuremedidasover) e \@ref(fig:structuremedidasover2)). Os valores devem ser informados em **metros**. Cabe notar que o comprimento pode **não ser** igual à largura da pista, uma vez os pilares de sustentação das passagens superiores costumam se distanciar da via sendo implantadas na faixa de domínio.
 
-```{r structuremedidasover, echo=FALSE, fig.cap='Esquemas para determinação de medidas de parâmetros de altura (**a**) e comprimento (**b**) da estrutura. Fonte: ©Francini Garcia.', fig.align='center', out.width='60%'}
+```{r structuremedidasover, echo=FALSE, fig.cap='Esquemas para determinação de medidas de parâmetros de altura (**a**) e extensão (**b**) da estrutura. Fonte: ©Francini Garcia.', fig.align='center', out.width='60%'}
 knitr::include_graphics(c("Imagens/over_medidas2.jpg"))
 ```
 ```{r structuremedidasover2, echo=FALSE, fig.cap='Esquemas para determinação de medidas de parâmetros de largura (**c**) e altura interna (**d**) da estrutura. Fonte: ©David Bax.', fig.align='center', out.width='60%'}
@@ -322,7 +322,7 @@ knitr::include_graphics(c("Imagens/cerca_rolete.png"))
 
 #### Coluna: `fence_conservation`
 
-Qualquer possibilidade de acesso a via a cerca é considerada não integra, pois perde a função de bloqueio de acesso a via. Abaixo segue exemplos de conservação das cercas.
+A cerca é considerada não íntegra quando há qualquer possibilidade de acesso a via, pois ela perde a função de bloqueio de acesso a via. Abaixo segue exemplos de conservação das cercas.
 
 ##### • Cerca íntegra
 
@@ -348,7 +348,7 @@ Exemplos da posição da armadilha fotográfica em relação à estrutura de tra
 
 ##### • Posição interna borda
 
-A câmera está poscionada na borda interna da estrutura de travessia (Figura \@ref(fig:internaborda)).
+A câmera está posicionada na borda interna da estrutura de travessia (Figura \@ref(fig:internaborda)).
 
 ```{r internaborda, echo=FALSE, fig.cap=' Câmera com posição interna borda. Fonte: ©NERF.', fig.align='center', out.width='50%'}
 knitr::include_graphics(c("Imagens/camera_position_interna_borda.jpg"))
@@ -397,6 +397,8 @@ Exemplos de fotos obtidas com cada armadilha fotográfica para visualização do
 ```{r cameravisionphoto, echo=FALSE, fig.cap='Exemplos de imagens com a visão da câmera para serem enviadas. Fonte: ©Diego Varela.', fig.align='center', out.width='90%'}
 knitr::include_graphics(c("Imagens/camera_vision_photo.jpg"))
 ```
+
+### Planilha: SPECIES RECORDS CAMERA
 
 #### Coluna: `behavior`
 
@@ -677,7 +679,7 @@ knitr::include_graphics(c("Imagens/structure_photo_over.jpg"))
 ```
 
 #### Columns: `structure_height`, `structure_length`, `structure_width` e `structure_internal_height`
-Measurements to be reported, as height (`structure_height` = **a**), width(`structure_width` = **b**), length (`structure_length` = **c**) and internal height of the structure in tunnel shape (if applicable) (`structure_internal_height` = **d**) (Figura \@ref(fig:structuremedidasover22) e \@ref(fig:structuremedidasover222)). The values must be reported in **meters**.
+Measurements to be reported, as height (`structure_height` = **a**), length (`structure_length` = **b**), width(`structure_width` = **c**),  and internal height of the structure in tunnel shape (if applicable) (`structure_internal_height` = **d**) (Figura \@ref(fig:structuremedidasover22) e \@ref(fig:structuremedidasover222)). The values must be reported in **meters**.
 
 ```{r structuremedidasover22, echo=FALSE, fig.cap='Schemes for determining parameter measurements of height (**a**) and length (**b**) of the structure. Fonte: ©Francini Garcia.', fig.align='center', out.width='60%'}
 knitr::include_graphics(c("Imagens/over_medidas2.jpg"))
@@ -726,7 +728,7 @@ knitr::include_graphics(c("Imagens/cerca_rolete.png"))
 ```
 
 #### Column: `fence_conservation`
-Any possibility of track access to the fence is considered non-intact, because it loses the function of blocking access to the road. Below are some examples of conservation fences.
+The fence is considered non-intact if there is any possibility of access to the via, because it loses the function of blocking access to the road. Below are some examples of conservation fences.
 
 ##### • Intact fence
 The fence does **not** have holes, defects or irregularities (Figure \@ref(fig:fenceintegrate)).
@@ -791,6 +793,7 @@ Examples of photos taken by the camera trap for visualization of the environment
 knitr::include_graphics(c("Imagens/camera_vision_photo.jpg"))
 ```
 
+### Spreadsheet: SPECIES RECORDS CAMERA
 #### Column: `behavior`
 Examples of animal behaviors in relation to the crossing structure to be considered.
 
