@@ -35,20 +35,12 @@ Função primária de conectividade hídrica (Figura \@ref(fig:bueiroconcreto)).
 knitr::include_graphics("Imagens/bueiro_concreto.jpg")
 ```
 
-##### • Bueiro corrugado
+##### • Bueiro de metal
 
-Paredes metálicas com ondulações (Figura \@ref(fig:bueirocorrugado)).
+Paredes metálicas lisas ou corrugadas (Figura \@ref(fig:bueirocorrugado)).
 
 ```{r bueirocorrugado, echo=FALSE, fig.cap='Bueiro corrugado. Fonte: ©NERF', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/bueiro_corrugado.jpg")
-```
-
-##### • Bueiro de metal
-
-Paredes metálicas lisas ou corrugadas (Figura \@ref(fig:bueirodemetal)).
-
-```{r bueirodemetal, echo=FALSE, fig.cap='Bueiro de metal. Fonte: ©Diego Varela.', fig.align='center', out.width='40%'}
-knitr::include_graphics("Imagens/bueiro_metal.jpeg")
 ```
 
 ##### • Bueiro com plataforma seca (bueiro com passadiço)
@@ -471,18 +463,11 @@ Primary water connectivity function (Figure \@ref(fig:concreteculverts)).
 knitr::include_graphics("Imagens/bueiro_concreto.jpg")
 ```
 
-##### • Corrugated culvert
-Metal walls with corrugations (Figure \@ref(fig:conrugatedculvert)).
+##### • Metal culvert
+Smooth or corrugated metal walls (Figure \@ref(fig:conrugatedculvert)).
 
 ```{r conrugatedculvert, echo=FALSE, fig.cap='Conrugated culvert. Fonte: ©NERF.', fig.align='center', out.width='40%'}
 knitr::include_graphics("Imagens/bueiro_corrugado.jpg")
-```
-
-##### • Metal culvert
-Smooth or corrugated metal walls (Figure \@ref(fig:metalculvert)).
-
-```{r metalculvert, echo=FALSE, fig.cap='Metal culvert. Fonte: ©Diego Varela.', fig.align='center', out.width='40%'}
-knitr::include_graphics("Imagens/bueiro_metal.jpeg")
 ```
 
 ##### • Culvert with dry ledges (culvert with walkway)
