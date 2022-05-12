@@ -828,3 +828,425 @@ knitr::write_bib(c(
 ## Español
 
 ### Sobre
+
+Este tutorial tiene como objetivo ayudar a completar las planillas. Cada sección de la planilla se representa por separado en este tutorial donde se ilustran ejemplos y detalles de la información necesaria para algunas columnas con el fin de ayudarle a rellenar la planilla. Buscamos contemplar diferentes ejemplos, pero reconocemos que aún pueden existir contextos diferentes a los discutidos aquí. Si tiene alguna pregunta, contáctenos por correo electrónico [passagens.fauna\@gmail.com](mailto:passagens.fauna@gmail.com){.email}.
+
+### Planilla: UNDERPASSES
+
+#### Columna: `structure_type`
+
+Cada imagen representa sólo un ejemplo posible de los tipos de estructuras de cruce (caracterización basada en su función primaria).
+
+##### • Alcantarilla de hormigón 
+
+Función primaria de conectividad de agua (Figura \@ref(fig:bueiroconcreto3)).
+
+```{r bueiroconcreto3, echo=FALSE, fig.cap='Alcantarilla de hormigón. Fuente: ©Diego Varela.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/bueiro_concreto.jpg")
+```
+
+##### • Alcantarilla corrugada
+
+Paredes con ondulaciones (Figura \@ref(fig:bueirocorrugado3)).
+
+```{r bueirocorrugado3, echo=FALSE, fig.cap='Alcantarilla corrugada. Fuente: ©NERF', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/bueiro_corrugado.jpg")
+```
+
+##### • Alcantarilla metálica
+
+Paredes metálicas lisas o corrugadas (Figura \@ref(fig:bueirodemetal3)).
+
+```{r bueirodemetal3, echo=FALSE, fig.cap='Alcantarilla metálica. Fuente: ©Diego Varela.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/bueiro_metal.jpeg")
+```
+
+##### • Alcantarilla con plataforma seca 
+
+Función primaria de conectividad de agua, pero con una plataforma seca que permite el cruce de fauna terrestre (Figura \@ref(fig:bueiroplataformaseca3)).
+
+```{r bueiroplataformaseca3, echo=FALSE, fig.cap='Alcantarilla con plataforma seca. Fuente: ©Fernanda Teixeira.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/bueiro_plataforma_seca.jpeg")
+```
+
+##### • Paso de ganado
+
+No tiene drenaje de agua y su función principal es el paso del ganado (Figura \@ref(fig:passagemdegado3)).
+
+```{r passagemdegado3, echo=FALSE, fig.cap='Passo de ganado. Fuente: ©Diego Varela.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/passagem_de_gado.jpg")
+```
+
+##### • Paso de fauna
+
+No tiene drenaje de agua y su función principal es el paso de fauna (Figura \@ref(fig:passagemdefauna3)).
+
+```{r passagemdefauna3, echo=FALSE, fig.cap='Paso de fauna. Fuente: ©Diego Varela.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/passagem_de_fauna.jpg")
+```
+
+##### • Puentes
+
+Estructuras que pueden ser suspendidas por columnas y pueden tener presencia de agua (excepto en períodos de sequía). Ejemplos: viaductos y puentes (Figura \@ref(fig:ponte3) e \@ref(fig:viaduto3)).
+
+```{r ponte3, echo=FALSE, fig.cap='Puente. Fuente: ©NERF', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/ponte.JPG")
+```
+
+```{r viaduto3, echo=FALSE, fig.cap='Viaducto. Fuente: ©Diego Varela.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/viaduto.jpg")
+```
+
+#### Columna: `structure_cell`
+
+Algunas estructuras, en particular los drenajes de agua, pueden estar formadas por múltiples estructuras paralelas de la misma función. Esta columna está destinada a informar del número de estructuras paralelas (por analogía, en los ejemplos se cuenta el número de bocas de un lado de la estructura). Los ejemplos siguientes no agotan las posibilidades (por ejemplo, cuádruple (4), quíntuple (5), etc.).
+
+##### • Simple (1)
+
+Estructura con boca única (Figura \@ref(fig:cellssimples3)).
+
+```{r cellssimples3, echo=FALSE, fig.cap='Paso simple (boca única). Fuente: ©NERF.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/cells_simples.jpg")
+```
+
+##### • Doble (2)
+
+Estructura con dos bocas (Figura \@ref(fig:cellsdupla3)).
+
+```{r cellsdupla3, echo=FALSE, fig.cap='Paso dupla (dos bocas). Fuente: ©NERF', fig.align='center', out.width='45%'}
+knitr::include_graphics(c("Imagens/cells_dupla.jpg"))
+```
+
+##### • Triple (3)
+
+Estructura con tres bocas (Figura \@ref(fig:cellstripla3)).
+
+```{r cellstripla3, echo=FALSE, fig.cap='Paso triple (três bocas). Fonte: ©NERF', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/cells_tripla.jpg"))
+```
+
+#### Columna: `structure_shape`
+
+Algunas estructuras, en particular los drenajes de agua, suelen tener formas de boca predeterminadas, como las celulares (cuadradas o rectangulares), las circulares (tubulares o elípticas) y los arcos.
+
+##### • Celular
+
+Estructura con perfil de boca en ángulo recto (cuadrado o rectangular) (Figura \@ref(fig:celular3)).
+
+```{r celular3, echo=FALSE, fig.cap='Estructura celular. Fuente: ©NERF', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/celular.jpg"))
+```
+
+##### • Tubular
+
+Estructura con perfil de boca tubular o elíptica (Figura \@ref(fig:tubular3)).
+
+```{r tubular3, echo=FALSE, fig.cap='Estructura tubular. Fuente: ©NERF', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/tubular.jpg"))
+```
+
+##### • Arqueada
+
+Estructura con perfil de boca en arco (Figura \@ref(fig:arco3)).
+
+```{r arco3, echo=FALSE, fig.cap='Estructura en arco. Fuente: ©Fernanda Teixeira.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/bueiro_arco.jpeg"))
+```
+
+#### Columna: `structure_photo`
+
+Para que podamos entender todos los diferentes contextos de los pasos de fauna y, eventualmente, hacer confirmaciones sobre los datos disponibles, se deben enviar imágenes representativas de cada estructura de cruce en el mismo correo electrónico que la planilla, preferiblemente adjuntas o con un enlace de descarga. El propósito de esta foto **no** es enviar una imagen capturada por la cámara trampa, sino una foto tomada externamente mostrando el número de bocas y la forma de la estructura. Se pueden encontrar ejemplos en este sentido en la Figura\@ref(fig:structurephotounder3).
+
+```{r structurephotounder3, echo=FALSE, fig.cap= 'Ejemplos de fotos a enviar como demostración de la estructura de cruce.', fig.align='center', out.width='100%'}
+knitr::include_graphics(c("Imagens/structure_photo_under.jpg"))
+```
+
+#### Columnas: `structure_height`, `structure_width`, `structure_length` e `waterbody_width`
+
+##### • Estructuras convencionales
+
+Deben proporcionarse los valores de las medidas de la estructura, como la altura (`structure_height` = **a**), el ancho (`structure_width` = **b**) y la longitud (`structure_length` = **c**, **c1**, **c2**) de la estructura (Figura \@ref(fig:structuremedidas3)). Los valores deben ser informados en **metros**. Hay que tener en cuenta que la longitud puede no ser igual al ancho de la vía, ya que hay estructuras oblicuas (**c1**, sesgadas)  con respecto al eje de la vía o en carreteras con terraplenes donde la estructura se extiende más allá del ancho de la vía y la banquina (**c2**).
+
+```{r structuremedidas3, echo=FALSE, fig.cap='Esquemas de estructuras convencionales que muestran las formas de obtener los parámetros de altura (**a**), ancho (**b**) y longitud (**c**, **c1**, **c2**) de la estructura.', fig.align='center', out.width='80%'}
+knitr::include_graphics(c("Imagens/under_medidas_esp.jpg"))
+```
+
+##### • Puentes
+
+El sistema de medición es diferente en el caso de los puentes. Deben indicarse los valores de medición de la estructura, como la altura (`altura de la estructura` = **a**), la sumatoria de los anchos de las orillas secas (`anchura de la estructura` = **b**), la luz (`longitud de la estructura` = **c**) y el ancho de la masa de agua debajo del puente (ancho de la masa de agua` = **d**) de la estructura (Figura \@ref(fig:estructuramedidasagua3)). Los valores deben ser informados en **metros**.
+
+```{r estructuramedidasagua3, echo=FALSE, fig.cap='Esquemas de puentes que muestran las formas de obtener los parámetros de altura (**a**), ancho (suma) de los bancos secos (**b**), longitud (**c**) y ancho de la masa de agua debajo del puente (**d**).', fig.align='center', out.width='100%'}
+knitr::include_graphics(c("Imagens/structure_medidas_agua.jpg"))
+```
+
+### Planilla: OVERPASSES
+
+#### Columna: `structure_type`
+
+En esta sección se presentan los diferentes tipos de estructuras de cruce superiores.
+
+##### • Puentes flexibles
+
+Son puentes que tienen un material flexible sujeto a oscilaciones cuando el animal está cruzando o en regiones con fuertes vientos. A continuación, se muestran algunos ejemplos.
+
+###### - Puente de cable de acero flexible 
+Puentes que utilizan cables de acero como material para permitir el cruce (Figura \@ref(fig:flexivelaco3)).
+
+```{r flexivelaco3, echo=FALSE, fig.cap='Puente flexible, material cable de acero. Fuente: ©Rodosol.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/flexivel_aco.jpg")
+```
+
+###### - Puente flexible con redes
+Puentes que utilizan redes como material para permitir el cruce (Figura \@ref(fig:flexivelrede3)).
+
+```{r flexivelrede3, echo=FALSE, fig.cap='Puente flexible, material redes. Fuente: ©Rubem Dornas.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/flexivel_rede.jpg")
+```
+
+###### - Puente flexible de cuerdas 
+Puentes que utilizan cuerdas como material para permitir el cruce (Figura \@ref(fig:flexivelcorda3)).
+
+```{r flexivelcorda3, echo=FALSE, fig.cap='Puente flexible, material cuerdas. Fuente: ©Rodosol.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/flexivel_corda.jpg")
+```
+
+###### - Puente túnel flexible
+
+Un puente que normalmente consta de un tejido de cuerdas en forma de tunel rectangular (Figura \@ref(fig:flexiveltunel3)).
+
+```{r flexiveltunel3, echo=FALSE, fig.cap='Puente flexible tejido en forma de túnel. Fonte: ©David Bax.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/tunel.png")
+```
+
+##### • Puentes rígidas
+
+Son puentes que tienen un material rígido que no está sujeto a oscilaciones cuando el animal está cruzando o en presencia de vientos. A continuación, se muestran algunos ejemplos.
+
+###### - Puente rígido con tronco de madera
+Puentes que utilizan madera o troncos de árboles como material para permitir el cruce (Figura \@ref(fig:rigidamadeira3)).
+
+```{r rigidamadeira3, echo=FALSE, fig.cap='Puente rígida, material tronco de madera. Fuente: ©Francini Garcia.', fig.align='center', out.width='50%'}
+knitr::include_graphics("Imagens/over_tronco.jpg")
+```
+
+###### - Puente rígido con plataforma metálica
+Puentes que utilizan plataformas de metal como material para permitir el cruce (Figura \@ref(fig:rigidametal3)).
+
+```{r rigidametal3, echo=FALSE, fig.cap='Puente rígido, material metal. Fuente: ©Helio Secco.', fig.align='center', out.width='50%'}
+knitr::include_graphics("Imagens/plataforma_metalica.jpeg")
+```
+
+##### • Puentes de vegetación
+
+###### - Puente de copas
+
+Este tipo de cruce consiste en la conexión o proximidad entre las copas de los árboles a ambos lados que se unen o están lo suficientemente cerca como para permitir que el animal cruce la infraestructura (Figura \@ref(fig:vegetacaocopas3)).
+```{r vegetacaocopas3, echo=FALSE, fig.cap='Puente de vegetación con copas de los árboles. Fuente: ©Larissa Gonçalves.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/ponte_copas.jpg")
+```
+
+##### • Ecoducto
+
+###### - Ecoducto
+
+Paso superior construido específicamente para el cruce de vida silvestre, generalmente con cobertura de pasto, arbustos y/o árboles (Figura \@ref(fig:viadutovegetado3)).
+
+```{r viadutovegetado3, echo=FALSE, fig.cap='Ecoducto. Fuente: ©Diego Varela.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/viaduto_vegetado.jpg")
+```
+
+#### Columna: `structure_branch_access`
+
+Corresponde al número de conexiones desplegadas para dar acceso a la estructura de paso superior (Figura \@ref(fig:structurebranchaccess3)).
+
+```{r structurebranchaccess3, echo=FALSE, fig.cap='Conexiones de acceso la estructura estructura de paso superior (Estructura vista desde arriba). Fuente: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics("Imagens/branch_access_esp.png")
+```
+
+#### Columna: `structure_photo`
+
+Para que podamos entender todos los diferentes contextos de los pasos de fauna y, eventualmente, hacer confirmaciones sobre los datos disponibles, se deben enviar imágenes representativas de cada estructura de cruce en el mismo correo electrónico que la planilla, preferiblemente adjuntas o con un enlace de descarga. El propósito de esta foto **no** es enviar una imagen capturada por la cámara trampa, sino una foto tomada externamente mostrando la forma de la estructura, como en el ejemplo (Figura \@ref(fig:structurephotoover3)).
+
+```{r structurephotoover3, echo=FALSE, fig.cap='Ejemplos de fotos a enviar como demostración de la estructura de cruce. Fuente: ©Francini Garcia.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/structure_photo_over.jpg"))
+```
+
+#### Columnas: `structure_height`, `structure_length`, `structure_width` e `structure_internal_height`
+
+Deben proporcionarse los valores de las medidas de la estructura, como la altura (`structure_height` = **a**), la longitud (`structure_length` = **b**), el ancho (`structure_width` = **c**), y la altura interna de la estructura (si es aplicable) (`structure_internal_height` = **d**) (Figura \@ref(fig:structuremedidasover3) e \@ref(fig:structuremedidasover23)). Los valores deben ser informados en **metros**. Hay que tener en cuenta que la longitud puede no ser igual al ancho de la vía, ya que los pilares de apoyo de los pasos superiores suelen estar situados a una distancia de la vía en la franja de dominio.
+
+```{r structuremedidasover3, echo=FALSE, fig.cap='Esquemas que muestran las formas de obtener los parámetros de altura (**a**) y de longitud (**b**) de la estructura. Fuente: ©Francini Garcia.', fig.align='center', out.width='60%'}
+knitr::include_graphics(c("Imagens/over_medidas2.jpg"))
+```
+```{r structuremedidasover23, echo=FALSE, fig.cap=' Esquemas que muestran las formas de obtener los parámetros de ancho (**c**) y altura interna (**d**) de la estructura. Fuente: ©David Bax.', fig.align='center', out.width='60%'}
+knitr::include_graphics(c("Imagens/tunel_medidas.jpg"))
+```
+
+
+### Planilla: FENCING
+
+#### Columnas: `fence_length_A1`, `fence_length_A2`, `fence_length_B1`, `fence_length_B2`
+
+Estos campos deben ser rellenados con la longitud del vallado de acuerdo a los 4 lados adyacentes a la boca del paso, denominados como **A1**, **A2**, **B1** y **B2** (Figura \@ref(fig:fencelength3)).
+
+```{r fencelength3, echo=FALSE, fig.cap='Ejemplo de la extensión del vallado a ambos lados de la boca de la estructura de cruce y también a ambos lados de la infraestructura lineal. Fuente: ©NERF.', fig.align='center', out.width='80%'}
+knitr::include_graphics(c("Imagens/fence_length_esp.jpg"))
+```
+
+#### Columna: `fence_overhang`
+
+Los vallados de conducción pueden tener o no, algún tipo de solapa superior sobre su estructura, normalmente planificado en función de la fauna a vallar.
+
+##### • Vallado con solapa ausente
+
+El tipo de vallado más común, sin solapas. (Figura \@ref(fig:cercasemaba3)).
+
+```{r cercasemaba3, echo=FALSE, fig.cap='Vallado con solapa ausente. Fuente: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/cerca_aba_ausente.png"))
+```
+
+##### • Vallado con solapa doblada rígida
+
+Vallado cuya solapa superior está doblada, hecha de material rígido, normalmente en ángulo hacia afuera de la vía (Figura \@ref(fig:cercaabarigida3)).
+
+```{r cercaabarigida3, echo=FALSE, fig.cap= 'Vallado con solapa doblada rígida. Fuente: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/cerca_aba_rigida.png"))
+```
+
+##### • Vallado con solapa doblada flexible
+
+Vallado con solapa superior doblada flexible, hecha de material de menor rigidez, con el objetivo de ceder con el peso del animal. (Figura \@ref(fig:cercaflexivel3)).
+
+```{r cercaflexivel3, echo=FALSE, fig.cap= 'Vallado con solapa doblada flexible. Fuente: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/cerca_flexivel.png"))
+```
+
+##### • Vallado con solapa de rodillos
+
+Vallado en la que la solapa superior tiene forma de rollo, que gira cuando un animal se apoya en ella (Figura \@ref(fig:cercarolete3)).
+
+```{r cercarolete3, echo=FALSE, fig.cap='Vallado con solapa de rodillos. Fuente: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/cerca_rolete.png"))
+```
+
+#### Columna: `fence_conservation`
+
+El vallado se considera no integro cuando existe alguna posibilidad de acceso a la vía, ya que pierde la función de bloqueo de acceso a la vía. A continuación, se muestran ejemplos de conservación de vallados.
+
+##### • Vallado íntegro
+
+El vallado **no** tiene agujeros, defectos o irregularidades (Figura \@ref(fig:cercaintegra3)).
+
+```{r cercaintegra3, echo=FALSE, fig.cap='Ejemplo de vallado íntegro. Fuente: ©Fernanda Teixeira.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/cerca_integra.jpeg"))
+```
+
+##### • Vallado no íntegro
+
+El vallado tiene agujeros o defectos (Figura \@ref(fig:cercanaointegra3)).
+
+```{r cercanaointegra3, echo=FALSE, fig.cap='Ejemplo de vallado no íntegro. Fuente: ©Fernanda Teixeira.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/cerca_nao_integra.jpeg"))
+```
+
+### Planilla: CAMERA TRAP
+
+#### Columna: `camera_position`
+
+Ejemplos de la posición de la cámara trampa en relación con la estructura de cruce.
+
+##### • Posición borde interna
+
+La cámara está posicionada en la borde interna de la estructura de cruce (Figura \@ref(fig:internaborda3)).
+
+```{r internaborda3, echo=FALSE, fig.cap='Cámara con posición borde interna. Fuente: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/camera_position_interna_borda.jpg"))
+```
+
+##### • Posición interna central
+
+La cámara está posicionada en la parte central (dentro) da estructura de cruce (Figura \@ref(fig:internacentral3)).
+
+```{r internacentral3, echo=FALSE, fig.cap='Cámara con posición interna central. Fuente: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/camera_position_interna_central.jpg"))
+```
+
+##### • Posición externa
+
+La cámara está posicionada externamente – fuera de la estructura de cruce (Figura \@ref(fig:externa3)).
+
+```{r externa3, echo=FALSE, fig.cap='Cámara con posición externa. Fuente: ©NERF.', fig.align='center', out.width='40%'}
+knitr::include_graphics(c("Imagens/camera_position_externa.jpg"))
+```
+
+#### Columna: `camera_view`
+
+Ejemplos de la vista de la cámara en relación con la estructura de cruce.
+
+##### • Cámara con vista para la boca de la estructura
+
+La vista de la cámara se enfoca en la boca de la estructura de cruce (Figura \@ref(fig:cameravisaoabertura3)).
+
+```{r cameravisaoabertura3, echo=FALSE, fig.cap='Cámara con vista para la boca de la estructura. Fuente: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/camera_visao_abertura.jpg"))
+```
+
+##### • Cámara con vista para el interior de la estructura
+
+La vista de la cámara se enfoca en el interior de la estructura de cruce (Figura \@ref(fig:cameravisaointerior3)).
+
+```{r cameravisaointerior3, echo=FALSE, fig.cap='Cámara con vista para el interior de la estructura. Fuente: ©Diego Varela.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/camera_visao_interior.jpg"))
+```
+
+#### Columna: `camera_vision_photo`
+
+Ejemplos de fotografías obtenidas con cada cámara trampa para la visualización del entorno a rellenar en este campo. **¡Las imágenes deben adjuntarse y enviarse en el mismo correo electrónico que la planilla!**
+
+```{r cameravisionphoto3, echo=FALSE, fig.cap='Ejemplos de imágenes con la vista de la cámara para enviar. Fuente: ©Diego Varela.', fig.align='center', out.width='90%'}
+knitr::include_graphics(c("Imagens/camera_vision_photo.jpg"))
+```
+
+#### Columna: `behavior`
+
+Ejemplos de comportamiento del animal en relación con la estructura de cruce.
+
+#### • Dentro
+
+El animal está dentro de la estructura de cruce. (Figura \@ref(fig:dentro3)).
+
+```{r dentro3, echo=FALSE, fig.cap='Animal dentro de la estructura de cruce. Fuente: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/behavior_dentro.jpg"))
+```
+
+#### • Entrando
+
+El animal parece estar entrando en la estructura de cruce (Figura \@ref(fig:entrando3)).
+
+```{r entrando3, echo=FALSE, fig.cap='Animal entrando en la estructura de cruce. Fuente: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/behavior_entrando.jpg"))
+```
+
+#### • Saliendo
+
+El animal parece estar saliendo de la estructura de cruce (Figura \@ref(fig:saindo3)).
+
+```{r saindo3, echo=FALSE, fig.cap='Animal saliendo en la estructura de cruce. Fuente: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/behavior_saindo.jpg"))
+```
+
+#### • Alrededor
+
+Cuando no está clasificado en ninguna otra categoría, pero el animal estaba cerca del paso (Figura \@ref(fig:arredores3)).
+
+```{r arredores3, echo=FALSE, fig.cap='Animal está alrededor de la estructura de cruce. Fuente: ©NERF.', fig.align='center', out.width='50%'}
+knitr::include_graphics(c("Imagens/behavior_arredores.jpg"))
+```
+
+#### • Evitando
+
+Video o fotos en secuencia que confirmen que el animal ha desistido de ingresar a la estructura de cruce (Figura \@ref(fig:evitando3)).
+
+```{r evitando3, echo=FALSE, fig.cap='Animal evitando ingresar en la estructura de cruce. Fuente: ©Marcel Huijser.', fig.align='center', out.width='90%'}
+knitr::include_graphics("Imagens/evitando.jpg")
+```
