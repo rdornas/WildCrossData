@@ -408,7 +408,7 @@ knitr::include_graphics(c("Imagens/behavior_dentro.jpg"))
 
 O animal parece estar entrando dentro da estrutura de travessia (Figura \@ref(fig:entrando)).
 
-```{r entrando, echo=FALSE, fig.cap='O animal está entrando na estrutura de travessia. Fonte: ©NERF.', fig.align='center', out.width='50%'}
+```{r entrando, echo=FALSE, fig.cap='O animal está entrando na estrutura de travessia. Fonte: ©Diego Varela.', fig.align='center', out.width='50%'}
 knitr::include_graphics(c("Imagens/behavior_entrando.jpg"))
 ```
 
@@ -416,7 +416,7 @@ knitr::include_graphics(c("Imagens/behavior_entrando.jpg"))
 
 O animal parece estar saindo de dentro da estrutura de travessia (Figura \@ref(fig:saindo)).
 
-```{r saindo, echo=FALSE, fig.cap='O animal está saindo da estrutura de travessia. Fonte: ©NERF.', fig.align='center', out.width='50%'}
+```{r saindo, echo=FALSE, fig.cap='O animal está saindo da estrutura de travessia. Fonte: ©Diego Varela.', fig.align='center', out.width='50%'}
 knitr::include_graphics(c("Imagens/behavior_saindo.jpg"))
 ```
 
@@ -792,14 +792,14 @@ knitr::include_graphics(c("Imagens/behavior_dentro.jpg"))
 #### • Getting in
 The animal is getting inside the crossing structure (Figure \@ref(fig:getin)).
 
-```{r getin, echo=FALSE, fig.cap='The animal is getting inside the crossing structure. Fonte: ©NERF.', fig.align='center', out.width='50%'}
+```{r getin, echo=FALSE, fig.cap='The animal is getting inside the crossing structure. Fonte: ©Diego Varela.', fig.align='center', out.width='50%'}
 knitr::include_graphics(c("Imagens/behavior_entrando.jpg"))
 ```
 
 #### • Getting out
 The animal is getting out the crossing structure (Figure \@ref(fig:getout)).
 
-```{r getout, echo=FALSE, fig.cap='The animal is getting out the crossing structure. Fonte: ©NERF.', fig.align='center', out.width='50%'}
+```{r getout, echo=FALSE, fig.cap='The animal is getting out the crossing structure. Fonte: ©Diego Varela.', fig.align='center', out.width='50%'}
 knitr::include_graphics(c("Imagens/behavior_saindo.jpg"))
 ```
 
@@ -1223,7 +1223,7 @@ knitr::include_graphics(c("Imagens/behavior_dentro.jpg"))
 
 El animal parece estar entrando en la estructura de cruce (Figura \@ref(fig:entrando3)).
 
-```{r entrando3, echo=FALSE, fig.cap='Animal entrando en la estructura de cruce. Fuente: ©NERF.', fig.align='center', out.width='50%'}
+```{r entrando3, echo=FALSE, fig.cap='Animal entrando en la estructura de cruce. Fuente: ©Diego Varela.', fig.align='center', out.width='50%'}
 knitr::include_graphics(c("Imagens/behavior_entrando.jpg"))
 ```
 
@@ -1231,7 +1231,7 @@ knitr::include_graphics(c("Imagens/behavior_entrando.jpg"))
 
 El animal parece estar saliendo de la estructura de cruce (Figura \@ref(fig:saindo3)).
 
-```{r saindo3, echo=FALSE, fig.cap='Animal saliendo en la estructura de cruce. Fuente: ©NERF.', fig.align='center', out.width='50%'}
+```{r saindo3, echo=FALSE, fig.cap='Animal saliendo en la estructura de cruce. Fuente: ©Diego Varela.', fig.align='center', out.width='50%'}
 knitr::include_graphics(c("Imagens/behavior_saindo.jpg"))
 ```
 
