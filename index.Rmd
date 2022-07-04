@@ -845,20 +845,12 @@ Función primaria de conectividad de agua (Figura \@ref(fig:bueiroconcreto3)).
 knitr::include_graphics("Imagens/bueiro_concreto.jpg")
 ```
 
-##### • Alcantarilla corrugada
-
-Paredes con ondulaciones (Figura \@ref(fig:bueirocorrugado3)).
-
-```{r bueirocorrugado3, echo=FALSE, fig.cap='Alcantarilla corrugada. Fuente: ©NERF', fig.align='center', out.width='40%'}
-knitr::include_graphics("Imagens/bueiro_corrugado.jpg")
-```
-
 ##### • Alcantarilla metálica
 
 Paredes metálicas lisas o corrugadas (Figura \@ref(fig:bueirodemetal3)).
 
-```{r bueirodemetal3, echo=FALSE, fig.cap='Alcantarilla metálica. Fuente: ©Diego Varela.', fig.align='center', out.width='40%'}
-knitr::include_graphics("Imagens/bueiro_metal.jpeg")
+```{r bueirodemetal3, echo=FALSE, fig.cap='Alcantarilla metálica. Fuente: ©NERF.', fig.align='center', out.width='40%'}
+knitr::include_graphics("Imagens/bueiro_corrugado.jpg")
 ```
 
 ##### • Alcantarilla con plataforma seca 
