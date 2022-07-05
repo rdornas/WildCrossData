@@ -845,7 +845,7 @@ Función primaria de conectividad de agua (Figura \@ref(fig:bueiroconcreto3)).
 knitr::include_graphics("Imagens/bueiro_concreto.jpg")
 ```
 
-##### • Alcantarilla metálica
+##### • Alcantarilla metalica
 
 Paredes metálicas lisas o corrugadas (Figura \@ref(fig:bueirodemetal3)).
 
